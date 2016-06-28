@@ -1,0 +1,86 @@
+@mixin Akzidenz() {
+	font-family: 'Akzidenz', Arial, sans-serif !important;
+	font-weight: 200;
+}
+
+@mixin Akzidenz-Medium() {
+	font-family: 'Akzidenz', Arial, sans-serif !important;
+	font-weight: 400;
+}
+
+@mixin Akzidenz-Bold() {
+	font-family: 'Akzidenz', Arial, sans-serif !important;
+	font-weight: 800;
+}
+
+@mixin Arial() {
+	font-family: Arial, sans-serif;
+	font-weight: 200;
+}
+
+@mixin Arial-Medium() {
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+}
+
+@mixin Arial-Bold() {
+	font-family: Arial, sans-serif;
+	font-weight: 800;
+}
+
+@mixin Arial-Black() {
+	font-family: Arial Black, Arial Bold, sans-serif;
+	font-weight: 200;
+}
+
+@mixin header-text() {
+	font-size: 3em;
+	text-align: center;
+	width: 100%;
+}
+
+@mixin grow($amount) {
+	transform: scale($amount);
+	-webkit-transform: scale($amount);
+}
+
+@mixin desaturate($amount) {
+	filter: grayscale($amount);
+	-webkit-filter: grayscale($amount);
+	-moz-filter: grayscale($amount);
+	-o-filter: grayscale($amount);
+}
+
+@mixin transform-reset {
+	transform: initial;
+	-webkit-transform: initial;
+}
+
+@mixin transition($time) {
+	-webkit-transition: all $time ease;
+    -moz-transition: all $time ease;
+    -o-transition: all $time ease;
+    transition: all $time ease;
+}
+
+@mixin transition-reset() {
+	-webkit-transition: initial;
+    -moz-transition: initial;
+    -o-transition: initial;
+    transition: initial;
+}
+
+@mixin centered-table-cell() {
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@mixin mobile-block-element() {
+    position: relative;
+    top: initial;
+    left: initial;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}

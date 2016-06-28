@@ -1,0 +1,220 @@
+$featureButtonHeight: 235px;
+$featureButtonHeightMobile: 220px;
+
+features {
+    @include transition(0.5s);
+    .row{
+        width: 100%;
+        height: 235px;
+        float: none;
+    }
+    @media screen and (max-width: 785px) {
+        .row {
+            height: 210px;
+            width: 100%;
+            position: relative;
+            left: .3%;
+        }
+    }
+    @media (max-width: 479px) {
+        .row {
+            height: 165px;
+        }
+    }
+
+    feature-button {
+        width: 33.3333333333333%;
+        display: block;
+        float: left;
+    }
+
+    .mt-landing-feature-icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background: $accentColor;
+        top: 30px;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        margin: auto;
+
+        > img {
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        @media screen and (max-width: 479px) {
+            width: 60px;
+            height: 60px;
+            top: 20px;
+
+            img {
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+
+    .mt-landing-feature-title {
+        text-transform: uppercase;
+        width: 100%;
+        top: 150px;
+        text-align: center;
+        color: $accentColor !important;
+        letter-spacing: 0px;
+        font-size: 1.2em;
+
+        @media screen and (max-width: 479px) {
+            font-size: 12px;
+            top: 110px;
+        }
+    }
+
+    .mt-landing-feature-button-over{
+        opacity: 0;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        @include transition(0.2s);
+    }
+
+    .mt-landing-feature-button-over-table {
+        width: 100%;
+        height: 100%;
+        display: table;
+        z-index: 2;
+    }
+
+    .mt-landing-feature-button-over-table-cell {
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    .mt-landing-feature-button:hover .mt-landing-feature-button-over {
+        opacity: 1;
+    }
+
+    .mt-landing-feature-copy-container {
+        color: $features-copyColor;
+        position: relative;
+        height: inherit;
+        width: inherit;
+        vertical-align: middle;
+        padding: 0 14px;
+    }
+
+    .mt-landing-over-copy {
+        font-weight: 100;
+        margin-bottom: 5px;
+        color: #FFF;
+        @include Arial;
+        font-size: smaller;
+        @include transition(0.2s);
+
+        @media screen and (max-width: 1275px) {
+            font-size: smaller;
+            top: 144px;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            top: 135px;
+        }
+    }
+
+    .mt-landing-over-copy, .mt-landing-over-cta {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mt-landing-over-cta {
+        @include Arial-Medium;
+        color: #FFF;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            font-size: 0.8em;
+        }
+    }
+
+    .mt-landing-feature-button-over-background, .mt-landing-feature-button-over-container {
+        height: 100%;
+        width: 100%;
+        background-color: $accentColor;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+
+    .mt-landing-feature-button-over-container {
+        z-index: 2;
+    }
+
+    .mt-landing-feature-button {
+        height: $featureButtonHeight;
+        position: relative;
+        box-sizing: border-box;
+        border: 4px solid #cccccc;
+        @include transition(0.5s);
+
+        .mt-landing-feature-button-up {
+            position: relative;
+            z-index: 1;
+        }
+
+        .mt-landing-innerBtn {
+            position: absolute;
+        }
+
+        .mt-landing-feature-rule {
+            width: 30%;
+            height: 5px;
+            border-top: 3px solid $accentColor;
+            top: 171px;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+
+            @media (max-width: 479px) {
+                top: 88px;
+            }
+        }
+
+        @media(max-width: 479px) {
+            height: 165px;
+        }
+    }
+
+    .mt-landing-feature-button:hover .mt-landing-over-copy {
+        opacity: 1;
+    }
+
+    @media screen and (max-width: $mobileBreakpoint) {
+        .mt-landing-feature-button .mt-landing-over-copy {
+            opacity: 1;
+        }
+    }
+
+    feature-button:first-of-type {
+        .mt-landing-feature-button {
+            margin-left: 0px;
+            margin-right: 3px;
+        }
+    }
+
+    feature-button:last-of-type {
+        .mt-landing-feature-button {
+            margin-right: 0px;
+            margin-left: 3px;
+        }
+    }
+}

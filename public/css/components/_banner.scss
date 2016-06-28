@@ -1,0 +1,39 @@
+banner {
+	cursor: default;
+
+	img {
+		width: 100%;
+	}
+
+	learn-more-button {
+        position:absolute;
+		top: 54%;
+		right: 2%;
+        width: 15%;
+        height: 34px;
+        border-radius: 20px;
+        
+        @media screen and (max-width: 685px) {
+            font-size: small;
+            top: 60%;
+            width: 25%;
+            height: 28px;
+
+            img {
+            	top: 3px;
+            }
+        }
+	}
+}
+
+banner.fr {
+    learn-more-button {
+        p {
+            font-size: 0.8em;
+        }
+        
+        @media screen and (max-width: 479px) {
+            width: 31%;
+        }
+    }
+}

@@ -1,0 +1,100 @@
+System.register(['angular2/core', './services/logger.service', './services/googleapi.service', './landing.learn-more.button', './analytics.directive'], function(exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
+    var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+        var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+        if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+        else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+        return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    var __metadata = (this && this.__metadata) || function (k, v) {
+        if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+    var core_1, logger_service_1, googleapi_service_1, landing_learn_more_button_1, analytics_directive_1;
+    var VideoPlayerSelector;
+    return {
+        setters:[
+            function (core_1_1) {
+                core_1 = core_1_1;
+            },
+            function (logger_service_1_1) {
+                logger_service_1 = logger_service_1_1;
+            },
+            function (googleapi_service_1_1) {
+                googleapi_service_1 = googleapi_service_1_1;
+            },
+            function (landing_learn_more_button_1_1) {
+                landing_learn_more_button_1 = landing_learn_more_button_1_1;
+            },
+            function (analytics_directive_1_1) {
+                analytics_directive_1 = analytics_directive_1_1;
+            }],
+        execute: function() {
+            VideoPlayerSelector = (function () {
+                function VideoPlayerSelector(logger, api, elementRef) {
+                    this.logger = logger;
+                    this.api = api;
+                    this.elementRef = elementRef;
+                    this.selectedVideo = new core_1.EventEmitter();
+                    this.ready = false;
+                    this.selected = false;
+                    this.init = false;
+                }
+                VideoPlayerSelector.prototype.ngOnInit = function () {
+                    var self = this;
+                    if (this.data.id && this.data.id.length && !(this.data.desc && this.data.desc.length)) {
+                        this.api.video(this.data.id, function (data, err) {
+                            if (data && !err) {
+                                self.initialize(data);
+                            }
+                            else {
+                                self.logger.error(err);
+                            }
+                        });
+                    }
+                };
+                VideoPlayerSelector.prototype.ngAfterViewInit = function () {
+                    var self = this;
+                    this.init = true;
+                };
+                VideoPlayerSelector.prototype.initialize = function (data) {
+                    //assumes 1 result
+                    data = data.items[0];
+                    this.data.desc = data.snippet.description.replace(/\\n/g, '');
+                    this.ready = true;
+                };
+                VideoPlayerSelector.prototype.select = function () {
+                    this.selectedVideo.emit(this.id);
+                    this.selected = true;
+                };
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], VideoPlayerSelector.prototype, "data", void 0);
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], VideoPlayerSelector.prototype, "id", void 0);
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], VideoPlayerSelector.prototype, "selected", void 0);
+                __decorate([
+                    core_1.Output(), 
+                    __metadata('design:type', Object)
+                ], VideoPlayerSelector.prototype, "selectedVideo", void 0);
+                VideoPlayerSelector = __decorate([
+                    core_1.Component({
+                        selector: 'videoplayer-selector',
+                        template: "\n    \t<div (click)=\"select()\" class=\"{{selected ? 'selected' : ''}}\" analyticsOn=\"click\" analyticsCategory=\"{{data.analytics.category}}\" analyticsAction=\"{{data.analytics.action}}\" analyticsLabel=\"{{data.analytics.label}}\">\n\t\t\t<div class=\"wp-refer-landing-videoplayer-text\">\n\t\t\t\t<div class=\"wp-refer-landing-videoplayer-title rl-mt-refer-landing-subtitle\" [innerHtml]=\"data.ctaTitle\"></div>\n\t\t\t\t<learn-more-button [text]=\"data.ctaText\" [backgroundImage]=\"data.ctaBackground\"></learn-more-button>\n\t\t\t</div>\n\t\t\t<img class=\"wp-refer-landing-videoplayer-background\" src=\"{{data.thumb}}\" alt=\"{{data.alt}}\"/>\n\t\t</div>\n    ",
+                        directives: [landing_learn_more_button_1.LearnMoreButton, analytics_directive_1.AnalyticsServiceOn]
+                    }), 
+                    __metadata('design:paramtypes', [logger_service_1.LoggerService, googleapi_service_1.GoogleApiService, core_1.ElementRef])
+                ], VideoPlayerSelector);
+                return VideoPlayerSelector;
+            }());
+            exports_1("VideoPlayerSelector", VideoPlayerSelector);
+        }
+    }
+});
+//# sourceMappingURL=landing.video-player.selector.js.map

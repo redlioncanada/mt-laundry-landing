@@ -1,0 +1,199 @@
+videoplayer {
+	> h2 {
+		@include header-text;
+        margin-top: 0px;
+        margin-bottom: 20px;
+         @media screen and (max-width: $mobileBreakpoint) {
+         	margin-top: 10px;
+         	margin-bottom: 24px;
+            font-size: 2em;
+        }
+	}
+
+    h2.wp-refer-landing-videoplayer-title{
+    	color: #FFF !important;
+         @media screen and (max-width: $mobileBreakpoint) {
+                font-size: 1em;
+         }
+    }
+
+	> ul {
+		$padding: 3px;
+		overflow: hidden;
+		background-color: $videoPlayer-backgroundColor;
+
+		li {
+			float: left;
+			width: 33.3334%;
+			padding: 0 $padding;
+		}
+
+		li:first-child {
+			padding-left: 0;
+		}
+
+		li:last-child {
+			padding-right: 0;
+		}
+	}
+}
+
+videoplayer-player {
+	width: 100%;
+
+	ul {
+		overflow: auto;
+	}
+
+	ul li {
+		width: 100%;
+	}
+
+	videoplayer-video {
+		width: 100%;
+
+		img {
+			width: 100%;
+		}
+	}
+
+
+	.wp-refer-landing-videoplayer-text {
+		width: 100%;
+		padding: 28px 40px;
+		background-color: $videoPlayer-backgroundColor;
+		color: $videoPlayer-descColor;
+		margin-top: -5px;
+
+		.wp-refer-landing-videoplayer-description, .wp-refer-landing-videoplayer-title {
+			text-align: center;
+		}
+
+		.wp-refer-landing-videoplayer-title {
+			letter-spacing: 0px;
+		}
+
+        .wp-refer-landing-videoplayer-description{
+        	margin-top: 10px;
+            @media screen and (max-width: $mobileBreakpoint) {
+                font-size: 66%;
+         	}
+        }
+	}
+}
+
+videoplayer-selector {
+	width: 100%;
+
+	> div {
+		height: inherit;
+	}
+
+	.wp-refer-landing-videoplayer-background {
+		width: 100%;
+		opacity: 0.45;
+	}
+
+	.wp-refer-landing-videoplayer-text {
+		width: 100%;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 2;
+		position: absolute;
+
+		.wp-refer-landing-videoplayer-title, learn-more-button {
+			text-align: center;
+			color: $videoPlayer-copyColor;
+			border-radius: 15px;
+		}
+
+		.wp-refer-landing-videoplayer-title {
+			font-size: 1.7em;
+			width: 100%;
+			color: $videoPlayer-copyColor !important;
+
+			@media screen and (max-width: $mobileBreakpoint) {
+	        	font-size: 1.0em;
+	        }
+		}
+
+		learn-more-button {
+			font-size: 0.8em;
+			position: relative;
+			top: 60%;
+			width: 42%;
+			margin: 0 auto;
+			margin-top: 5px;
+			line-height: 25px;
+			@include transition(0.2s);
+            @media screen and (max-width: 785px) {
+                display: none;
+            }
+
+            p {
+            	display: block;
+            	margin: 1px 0 0 -19px;
+            }
+
+            p:after {
+            	content: url('../images/play-icon.png');
+            	position: absolute;
+            	top: 5px;
+            	right: 9px;
+            }
+
+            img {
+            	margin-top: 0;
+            }
+		}
+	}
+
+	videoplayer-selector:hover {
+		learn-more-button {
+			@include desaturate(100%);
+		}
+	}
+
+	> div {
+		position: relative;
+		cursor: pointer;
+		background-color: #000000;
+	}
+
+	.selected {
+		cursor: default;
+
+		* {
+			cursor: default;
+		}
+
+		learn-more-button {
+			opacity: 0;
+		}
+
+		.wp-refer-landing-videoplayer-background {
+			opacity: 1;
+		}
+
+		.wp-refer-landing-videoplayer-title {
+			opacity: 0;
+		}
+	}
+}
+
+videoplayer.fr {
+	videoplayer-selector .wp-refer-landing-videoplayer-text {
+		learn-more-button {
+			width: 40%;
+			line-height: 22px;
+		}
+
+		learn-more-button p {
+			margin: 2px 0 0 0;
+		}
+
+		learn-more-button p:after {
+			content: '';
+		}
+	}
+}

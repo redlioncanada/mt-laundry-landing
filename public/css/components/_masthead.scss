@@ -1,0 +1,62 @@
+masthead {
+	width: 80%;
+	position: relative;
+	display: block;
+    overflow: hidden;
+
+    @media screen and (max-width: $mobileBreakpoint) {
+        padding-top: initial;
+    }
+
+    .mt-landing-image {
+        position: relative;
+        overflow: hidden;
+        cursor: default;
+        margin-bottom: 20px;
+        z-index: 1;
+
+        img:first-child {
+            z-index: 1;
+        }
+
+        img:last-child {
+            position: absolute;
+            z-index: 2;
+            opacity: 0;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .mt-landing-light {
+        position: absolute;
+        width: 30%;
+        right: 7%;
+        bottom: -20%;
+        z-index: 2;
+    }
+
+    img{
+        width: 100%;
+        @include transition(0.5s);
+    }
+
+    .mt-landing-title{
+        h1{
+            text-transform: uppercase;
+            font-weight: 100;
+            font-size: 32px;
+
+            @media screen and (max-width: 768px) {
+                text-align: center;
+                padding-bottom: 10px;
+                left: 0;
+            }
+
+            @media screen and (max-width: 479px) {
+                line-height: 34px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

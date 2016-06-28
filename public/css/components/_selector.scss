@@ -1,0 +1,423 @@
+product-selector {
+	width: 80%;
+	position: relative;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    margin-bottom: 60px !important;
+    
+    h2{
+        font-size: 3em;
+        text-align: center;
+        font-weight: 800;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        @media screen and (max-width: 1366px) {
+            font-size: 2em;
+            margin-top: 35px;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            margin-bottom: 0px !important;
+        }
+
+        @media screen and (max-width: 479px) {
+            height: 20px;
+            line-height: normal;
+        }
+    }
+    
+   #french-door, #side-by-side, #bottom-freezer, #under-counter, #built-in{
+        opacity: 0;
+    }
+    
+    product-slides {
+        display: inline-block;
+        width: 100%;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+    }
+    .wp-refer-landing-product-slide{
+        position: relative;
+    }
+    product-slide {
+        display: inline-block;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+
+        #freezers img {
+            margin-left: -50px;
+
+            @media screen and (max-width: $mobileBreakpoint) {
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: $mobileBreakpoint) {
+        product-slide:first-of-type {
+            position: relative;
+        }
+    }
+
+    product-slide:not(.selected) {
+        display: none;
+    }
+
+    .rl-wp-lndng-prodLeft {
+        width: 50%;
+        position: relative;
+        float: left;
+        text-align: right;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            float: none;
+            width: 100%
+        }
+    }
+
+    .rl-wp-lndng-prodRight {
+        width: 35%;
+        position: relative;
+        float: left;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            float: none;
+            width: 100%
+        }
+    }
+
+    .rl-wp-lndng-side{
+        display: none;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            width: 100%;
+        }
+    }
+
+    > .row{
+        background-image: url('../../public/images/refer-select-shadow.png');
+        background-repeat: no-repeat;
+        background-position-y: 100px;
+        -webkit-transition: all 1s;
+        transition: all 1s;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            background-position-y: -30px;
+        }
+    }
+    
+    .rl-wp-lndng-fridge-title.mobile {
+        display: none;
+        margin-bottom: 20px;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            @include mobile-block-element;
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 10px;
+            color: #000000!important;
+        }
+    }
+
+    .rl-wp-lndng-fridge-title{
+        position: relative;
+        font-weight: 300;
+        font-size: 32px;
+        color: #6d6f71 !important;
+        opacity: 0;
+        line-height: 30px;
+        text-align: left;
+        padding-bottom: 10px;
+        @include Arial();
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            display: none;
+        }
+    }
+    
+    learn-more-button{
+        position: relative;
+        width: 135px;
+        height: 30px;
+        opacity: 0;
+        text-transform: uppercase;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            @include mobile-block-element;
+        }
+    }
+    
+    .rl-wp-lndng-fridge{
+        position: relative;
+        opacity: 0;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            left: initial;
+            position: relative;
+            display: block;
+            top: 0;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    }
+    
+    .rl-wp-lndng-fridge img{
+        width: 350px;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            height: 200px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            width: initial;
+        }
+    }
+    
+    .rl-wp-lndng-fridge-desc{
+        position: relative;
+        font-size: 18.5px;
+        font-weight: 100;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-rendering: optimizeSpeed;
+        opacity: 0;
+        text-align: left;
+        padding-bottom: 20px;
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            @include mobile-block-element;
+            font-size: 14px !important;
+            line-height: 18px !important;
+        }
+
+        @media screen and (max-width: 1366px) {
+           font-size: 18px;
+           line-height: 24px;
+        }
+    }
+    
+}
+
+product-selector-nav {
+    position: relative;
+    display: inline-block;
+    padding-top: 4%;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+
+    .row {
+        position: relative;
+    }
+    
+    @media screen and (max-width: $mobileBreakpoint) {
+        height: 225px;
+        padding-top: 0;
+    }
+    
+    @media screen and (max-width: 479px) {
+        height: 400px;
+    }
+
+    .wp-refer-landing-product,.see-all {
+        float: left;
+        width: 16.6%;
+        padding-right: 6px;
+        padding-left: 6px;
+
+        @media screen and (max-width: 479px) {
+         width: 33%;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .wp-refer-landing-product{
+        > img {
+            @include transition(0.2s);
+        }
+    }
+
+    .wp-refer-landing-product:not(.selected) {
+        > img {
+            opacity: 0.6;
+        }
+
+        .wp-refer-landing-button {
+            color: $selectorTextColor;
+        }
+    }
+
+    .wp-refer-landing-button {
+        @include Arial-Black();
+        margin-top: 10px;
+        height: 50px;
+        border: 2px solid $accentColor;
+        display: table;
+        width: 100%;
+        @include transition(0.2s);
+
+        p {
+            width: 100%;
+            line-height: 13px;
+            font-size: 0.8em;
+            font-weight: 400;
+            color: $accentColor;
+            @include centered-table-cell();
+            text-transform: uppercase;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            p {
+                font-size: 0.6em;
+                font-weight: 200;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            p {
+                font-size: 0.4em;
+                font-weight: 100;
+            }
+        }
+    }
+
+    .wp-refer-landing-product:hover {
+        > img {
+            opacity: 0.75;
+        }
+
+        .wp-refer-landing-button {
+            background-color: $selectorHighlightedBackgroundColor !important;
+        }
+
+        .wp-refer-landing-button p {
+            color: $selectorHighlightedTextColor !important;
+        }
+    }
+
+    .wp-refer-landing-product.selected {
+        .wp-refer-landing-button {
+            background-color: $selectorHighlightedBackgroundColor;
+        }
+
+        .wp-refer-landing-button p {
+            color: $selectorHighlightedTextColor;
+        }
+    }
+
+    .see-all {
+        height: 226px;
+        width: 14%;
+        color: $selectorSeeAllColor;
+        text-transform: uppercase;
+        display: table;
+        padding: 0;
+        @include transition(0.2s);
+
+        &:hover {
+            background-color: $selectorHighlightedBackgroundColor;
+
+            p {
+                color: $selectorHighlightedTextColor;
+            }
+        }
+
+        div {
+            display: table;
+            width: 100%;
+            height: 100%;
+            border: 5px solid $selectorSeeAllColor;
+            font-weight: 400;
+        }
+
+        p {
+            @include centered-table-cell;
+            font-size: 1.5em;
+            line-height: 26px;
+            font-weight: 600;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            display: initial;
+            padding: initial;
+            width: 14%;
+            height: 192px;
+
+            div {
+                margin-top: initial;
+                margin: 0 auto;
+            }
+
+            p {
+                font-size: 1em;
+                line-height: 15px;
+            }
+        }
+
+        @media screen and (max-width: 479px) {
+            height: 119px;
+        }
+    }
+}
+
+product-selector.fr {
+    product-slides {
+        @media screen and (max-width: 479px) {
+            margin-top: 73px;
+        }
+    }
+
+    product-selector-nav {
+        @media screen and (max-width: 479px) {
+            .wp-refer-landing-button p {
+                font-size: 0.6em;
+                line-height: 11px;
+            }
+        }
+    }
+
+    .rl-wp-lndng-fridge-desc {
+        width: 370px;
+    }
+
+    learn-more-button {
+        width: 165px;
+
+        .learn-more-button {
+            top: 1px;
+        }
+
+        .learn-more-button p {
+            line-height: 36px;
+        }
+    }
+}
+
+.product-slide-background {
+    width: 100%;
+    height: 130px;
+    background: url(../images/refer-select-shadow.png);
+    position: absolute;
+    background-position: 0 -280px;
+    top: 310px;
+    left: -90px;
+    opacity: 0.5;
+
+    @media screen and (max-width: $mobileBreakpoint) {
+        left: 0;
+    }
+}
