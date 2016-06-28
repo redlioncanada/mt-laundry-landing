@@ -1,7 +1,7 @@
 {
-  "name": "mt-fcr-landing",
+  "name": "mt-laundry-landing",
   "version": "1.0.0",
-  "description": "New Maytag cooking landing page",
+  "description": "New Maytag laundry landing page",
   "main": "index.js",
   "scripts": {
     "postinstall": "npm run typings install",

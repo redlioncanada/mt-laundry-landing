@@ -80,7 +80,7 @@ System.register(['angular2/platform/browser', 'angular2/http', './services/logge
                         return window.location.href.indexOf('fr_CA/') > -1 ? 'FR' : 'EN';
                     });
                     analytics.bind('category', function (str) {
-                        return 'Refer Landing Page';
+                        return 'Laundry Landing Page';
                     });
                     breakpoint.add('mobile', 480);
                     breakpoint.add('tablet', 481);
@@ -97,7 +97,7 @@ System.register(['angular2/platform/browser', 'angular2/http', './services/logge
                 };
                 AppComponent = __decorate([
                     core_1.Component({
-                        selector: 'rl-mt-fcr-landing',
+                        selector: 'rl-mt-laundry-landing',
                         template: "\n\t    <masthead class=\"{{language}}\"></masthead>\n\t\t<features class=\"{{language}}\"></features>\n\t\t<product-selector class=\"{{language}}\"></product-selector>\n\t\t<videoplayer class=\"{{language}}\"></videoplayer>\n\t\t<more-features class=\"{{language}}\"></more-features>\n\t\t<!-- <banner class=\"{{language}}\"></banner> -->\n    ",
                         directives: [landing_video_player_1.VideoPlayer, landing_masthead_1.AppMasthead, landing_feature_1.Features, product_selector_1.ProductSelector, landing_banner_1.Banner, landing_morefeatures_1.MoreFeatures, landing_header_1.Header, landing_footer_1.Footer]
                     }), 

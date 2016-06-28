@@ -12,7 +12,7 @@ html, body {
   src: url("/public/fonts/AkzidenzGroteskPro-BoldCn.eot");
   src: url("/public/fonts/AkzidenzGroteskPro-BoldCn.eot?#iefix") format("embedded-opentype"), url("/public/fonts/AkzidenzGroteskPro-BoldCn.woff") format("woff"), url("/public/fonts/AkzidenzGroteskPro-BoldCn.ttf") format("truetype"); }
 
-rl-mt-fcr-landing {
+rl-mt-laundry-landing {
   /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -30,152 +30,152 @@ rl-mt-fcr-landing {
   margin-top: 40px;
   background: white;
   overflow: hidden; }
-  rl-mt-fcr-landing html, rl-mt-fcr-landing body, rl-mt-fcr-landing div, rl-mt-fcr-landing span, rl-mt-fcr-landing applet, rl-mt-fcr-landing object, rl-mt-fcr-landing iframe, rl-mt-fcr-landing h1, rl-mt-fcr-landing h2, rl-mt-fcr-landing h3, rl-mt-fcr-landing h4, rl-mt-fcr-landing h5, rl-mt-fcr-landing h6, rl-mt-fcr-landing p, rl-mt-fcr-landing blockquote, rl-mt-fcr-landing pre, rl-mt-fcr-landing a, rl-mt-fcr-landing abbr, rl-mt-fcr-landing acronym, rl-mt-fcr-landing address, rl-mt-fcr-landing big, rl-mt-fcr-landing cite, rl-mt-fcr-landing code, rl-mt-fcr-landing del, rl-mt-fcr-landing dfn, rl-mt-fcr-landing em, rl-mt-fcr-landing img, rl-mt-fcr-landing ins, rl-mt-fcr-landing kbd, rl-mt-fcr-landing q, rl-mt-fcr-landing s, rl-mt-fcr-landing samp, rl-mt-fcr-landing small, rl-mt-fcr-landing strike, rl-mt-fcr-landing strong, rl-mt-fcr-landing sub, rl-mt-fcr-landing sup, rl-mt-fcr-landing tt, rl-mt-fcr-landing var, rl-mt-fcr-landing b, rl-mt-fcr-landing u, rl-mt-fcr-landing i, rl-mt-fcr-landing center, rl-mt-fcr-landing dl, rl-mt-fcr-landing dt, rl-mt-fcr-landing dd, rl-mt-fcr-landing ol, rl-mt-fcr-landing ul, rl-mt-fcr-landing li, rl-mt-fcr-landing fieldset, rl-mt-fcr-landing form, rl-mt-fcr-landing label, rl-mt-fcr-landing legend, rl-mt-fcr-landing table, rl-mt-fcr-landing caption, rl-mt-fcr-landing tbody, rl-mt-fcr-landing tfoot, rl-mt-fcr-landing thead, rl-mt-fcr-landing tr, rl-mt-fcr-landing th, rl-mt-fcr-landing td, rl-mt-fcr-landing article, rl-mt-fcr-landing aside, rl-mt-fcr-landing canvas, rl-mt-fcr-landing details, rl-mt-fcr-landing embed, rl-mt-fcr-landing figure, rl-mt-fcr-landing figcaption, rl-mt-fcr-landing footer, rl-mt-fcr-landing header, rl-mt-fcr-landing hgroup, rl-mt-fcr-landing menu, rl-mt-fcr-landing nav, rl-mt-fcr-landing output, rl-mt-fcr-landing ruby, rl-mt-fcr-landing section, rl-mt-fcr-landing summary, rl-mt-fcr-landing time, rl-mt-fcr-landing mark, rl-mt-fcr-landing audio, rl-mt-fcr-landing video {
+  rl-mt-laundry-landing html, rl-mt-laundry-landing body, rl-mt-laundry-landing div, rl-mt-laundry-landing span, rl-mt-laundry-landing applet, rl-mt-laundry-landing object, rl-mt-laundry-landing iframe, rl-mt-laundry-landing h1, rl-mt-laundry-landing h2, rl-mt-laundry-landing h3, rl-mt-laundry-landing h4, rl-mt-laundry-landing h5, rl-mt-laundry-landing h6, rl-mt-laundry-landing p, rl-mt-laundry-landing blockquote, rl-mt-laundry-landing pre, rl-mt-laundry-landing a, rl-mt-laundry-landing abbr, rl-mt-laundry-landing acronym, rl-mt-laundry-landing address, rl-mt-laundry-landing big, rl-mt-laundry-landing cite, rl-mt-laundry-landing code, rl-mt-laundry-landing del, rl-mt-laundry-landing dfn, rl-mt-laundry-landing em, rl-mt-laundry-landing img, rl-mt-laundry-landing ins, rl-mt-laundry-landing kbd, rl-mt-laundry-landing q, rl-mt-laundry-landing s, rl-mt-laundry-landing samp, rl-mt-laundry-landing small, rl-mt-laundry-landing strike, rl-mt-laundry-landing strong, rl-mt-laundry-landing sub, rl-mt-laundry-landing sup, rl-mt-laundry-landing tt, rl-mt-laundry-landing var, rl-mt-laundry-landing b, rl-mt-laundry-landing u, rl-mt-laundry-landing i, rl-mt-laundry-landing center, rl-mt-laundry-landing dl, rl-mt-laundry-landing dt, rl-mt-laundry-landing dd, rl-mt-laundry-landing ol, rl-mt-laundry-landing ul, rl-mt-laundry-landing li, rl-mt-laundry-landing fieldset, rl-mt-laundry-landing form, rl-mt-laundry-landing label, rl-mt-laundry-landing legend, rl-mt-laundry-landing table, rl-mt-laundry-landing caption, rl-mt-laundry-landing tbody, rl-mt-laundry-landing tfoot, rl-mt-laundry-landing thead, rl-mt-laundry-landing tr, rl-mt-laundry-landing th, rl-mt-laundry-landing td, rl-mt-laundry-landing article, rl-mt-laundry-landing aside, rl-mt-laundry-landing canvas, rl-mt-laundry-landing details, rl-mt-laundry-landing embed, rl-mt-laundry-landing figure, rl-mt-laundry-landing figcaption, rl-mt-laundry-landing footer, rl-mt-laundry-landing header, rl-mt-laundry-landing hgroup, rl-mt-laundry-landing menu, rl-mt-laundry-landing nav, rl-mt-laundry-landing output, rl-mt-laundry-landing ruby, rl-mt-laundry-landing section, rl-mt-laundry-landing summary, rl-mt-laundry-landing time, rl-mt-laundry-landing mark, rl-mt-laundry-landing audio, rl-mt-laundry-landing video {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline; }
-  rl-mt-fcr-landing h1 {
+  rl-mt-laundry-landing h1 {
     font-size: 2em; }
-  rl-mt-fcr-landing h2 {
+  rl-mt-laundry-landing h2 {
     font-size: 1.5em; }
-  rl-mt-fcr-landing h3 {
+  rl-mt-laundry-landing h3 {
     font-size: 1.17em; }
-  rl-mt-fcr-landing h4 {
+  rl-mt-laundry-landing h4 {
     font-size: 1.12em; }
-  rl-mt-fcr-landing h5 {
+  rl-mt-laundry-landing h5 {
     font-size: .83em; }
-  rl-mt-fcr-landing h6 {
+  rl-mt-laundry-landing h6 {
     font-size: .75em; }
-  rl-mt-fcr-landing article, rl-mt-fcr-landing aside, rl-mt-fcr-landing details, rl-mt-fcr-landing figcaption, rl-mt-fcr-landing figure, rl-mt-fcr-landing footer, rl-mt-fcr-landing header, rl-mt-fcr-landing hgroup, rl-mt-fcr-landing menu, rl-mt-fcr-landing nav, rl-mt-fcr-landing section {
+  rl-mt-laundry-landing article, rl-mt-laundry-landing aside, rl-mt-laundry-landing details, rl-mt-laundry-landing figcaption, rl-mt-laundry-landing figure, rl-mt-laundry-landing footer, rl-mt-laundry-landing header, rl-mt-laundry-landing hgroup, rl-mt-laundry-landing menu, rl-mt-laundry-landing nav, rl-mt-laundry-landing section {
     display: block; }
-  rl-mt-fcr-landing body {
+  rl-mt-laundry-landing body {
     line-height: 1; }
-  rl-mt-fcr-landing ol, rl-mt-fcr-landing ul {
+  rl-mt-laundry-landing ol, rl-mt-laundry-landing ul {
     list-style: none; }
-  rl-mt-fcr-landing blockquote, rl-mt-fcr-landing q {
+  rl-mt-laundry-landing blockquote, rl-mt-laundry-landing q {
     quotes: none; }
-  rl-mt-fcr-landing blockquote:before, rl-mt-fcr-landing blockquote:after {
+  rl-mt-laundry-landing blockquote:before, rl-mt-laundry-landing blockquote:after {
     content: '';
     content: none; }
-  rl-mt-fcr-landing q:before, rl-mt-fcr-landing q:after {
+  rl-mt-laundry-landing q:before, rl-mt-laundry-landing q:after {
     content: '';
     content: none; }
-  rl-mt-fcr-landing table {
+  rl-mt-laundry-landing table {
     border-collapse: collapse;
     border-spacing: 0; }
-  rl-mt-fcr-landing a {
+  rl-mt-laundry-landing a {
     text-decoration: none; }
-  rl-mt-fcr-landing sub, rl-mt-fcr-landing sup {
+  rl-mt-laundry-landing sub, rl-mt-laundry-landing sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline !important; }
-  rl-mt-fcr-landing sup {
+  rl-mt-laundry-landing sup {
     top: -0.5em; }
-  rl-mt-fcr-landing sub {
+  rl-mt-laundry-landing sub {
     bottom: -0.25em; }
-  rl-mt-fcr-landing .hide {
+  rl-mt-laundry-landing .hide {
     display: none; }
-  rl-mt-fcr-landing .show {
+  rl-mt-laundry-landing .show {
     display: block; }
-  rl-mt-fcr-landing .selected {
+  rl-mt-laundry-landing .selected {
     cursor: default; }
-  rl-mt-fcr-landing .no-link, rl-mt-fcr-landing .no-link * {
+  rl-mt-laundry-landing .no-link, rl-mt-laundry-landing .no-link * {
     cursor: default !important; }
-  rl-mt-fcr-landing header {
+  rl-mt-laundry-landing header {
     font-family: Helvetica, Arial, sans-serif;
     overflow: hidden; }
-    rl-mt-fcr-landing header #upper-wrap {
+    rl-mt-laundry-landing header #upper-wrap {
       background-color: #EEE;
       height: 35px;
       width: 100%;
       position: absolute;
       z-index: 1; }
-    rl-mt-fcr-landing header #header-wrap {
+    rl-mt-laundry-landing header #header-wrap {
       position: relative;
       width: 100%;
       z-index: 2; }
-      rl-mt-fcr-landing header #header-wrap ul {
+      rl-mt-laundry-landing header #header-wrap ul {
         list-style: none;
         padding: 0;
         margin: 0; }
-        rl-mt-fcr-landing header #header-wrap ul li {
+        rl-mt-laundry-landing header #header-wrap ul li {
           float: left; }
-      rl-mt-fcr-landing header #header-wrap a {
+      rl-mt-laundry-landing header #header-wrap a {
         color: #333;
         text-decoration: none; }
-      rl-mt-fcr-landing header #header-wrap .header-content-wrap {
+      rl-mt-laundry-landing header #header-wrap .header-content-wrap {
         width: 100%;
         height: inherit;
         z-index: 2;
         border-bottom: 1.5px solid #BBB; }
-        rl-mt-fcr-landing header #header-wrap .header-content-wrap > * {
+        rl-mt-laundry-landing header #header-wrap .header-content-wrap > * {
           position: relative;
           margin: 0 auto;
           width: 944px; }
-        rl-mt-fcr-landing header #header-wrap .header-content-wrap .upper {
+        rl-mt-laundry-landing header #header-wrap .header-content-wrap .upper {
           height: 35px;
           padding: 10px 0;
           font-size: 8pt;
           text-transform: uppercase; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .upper .logo {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .upper .logo {
             position: absolute;
             left: -6px;
             top: 50px;
             z-index: 5; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .upper ul li {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .upper ul li {
             position: relative; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .upper ul li:not(:first-child) {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .upper ul li:not(:first-child) {
             margin-left: 10px; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .upper ul li:hover {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .upper ul li:hover {
             text-decoration: underline;
             cursor: pointer; }
-            rl-mt-fcr-landing header #header-wrap .header-content-wrap .upper ul li:hover > .submenu {
+            rl-mt-laundry-landing header #header-wrap .header-content-wrap .upper ul li:hover > .submenu {
               display: block; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .upper .language {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .upper .language {
             font-weight: 500;
             margin-right: 10px; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .upper .language:hover {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .upper .language:hover {
             text-decoration: underline; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .upper .search-textbox {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .upper .search-textbox {
             margin-top: -5px;
             width: 110px;
             padding-left: 3px; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .upper .search-textbox-icon {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .upper .search-textbox-icon {
             position: absolute;
             right: 2px;
             top: 7px;
             cursor: pointer; }
-        rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower {
+        rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower {
           height: 22px;
           padding-top: 80px; }
-        rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu {
+        rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu {
           position: absolute;
           bottom: 0;
           height: 22px;
           width: inherit; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu > li {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu > li {
             height: 100%;
             text-transform: uppercase;
             font-size: 9pt;
             position: relative; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu > li:first-child {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu > li:first-child {
             margin-right: 10px; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu > li:not(:last-child) {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu > li:not(:last-child) {
             margin-right: 43px; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu > li:hover {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu > li:hover {
             border-bottom: 3px solid #CC0000;
             cursor: pointer; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu li:hover > .submenu {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu li:hover > .submenu {
             display: block; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double {
             width: 300%; }
-            rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double li {
+            rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu li .submenu.double li {
               width: 50%; }
-          rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu li .submenu {
+          rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu li .submenu {
             top: 22px;
             left: 0;
             display: none;
@@ -185,38 +185,38 @@ rl-mt-fcr-landing {
             z-index: 10001;
             background-color: white;
             border: 1px solid #BBB; }
-            rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li {
+            rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li {
               width: 100%;
               display: block;
               float: none;
               text-transform: none;
               font-size: 7pt;
               padding: 4px 8px; }
-            rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert {
+            rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert {
               margin-left: 50%;
               margin-top: -200px;
               border-left: 1px solid #BBB; }
-              rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert * {
+              rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li.insert * {
                 padding-left: 9px; }
-            rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li:not(.insert):hover {
+            rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu li .submenu li:not(.insert):hover {
               background-color: #EEE;
               color: #CC0000; }
-            rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:first-child li {
+            rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:first-child li {
               margin-top: 2px; }
-            rl-mt-fcr-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:last-child li {
+            rl-mt-laundry-landing header #header-wrap .header-content-wrap .lower .menu li .submenu a:last-child li {
               margin-bottom: 13px; }
-    rl-mt-fcr-landing header .pull-left {
+    rl-mt-laundry-landing header .pull-left {
       float: left; }
-    rl-mt-fcr-landing header .pull-right {
+    rl-mt-laundry-landing header .pull-right {
       float: right; }
-  rl-mt-fcr-landing header:lang(fr) #header-wrap .header-content-wrap .lower .menu li:not(:last-child) {
+  rl-mt-laundry-landing header:lang(fr) #header-wrap .header-content-wrap .lower .menu li:not(:last-child) {
     margin-right: 9px; }
-  rl-mt-fcr-landing #header_main_nav .top .header {
+  rl-mt-laundry-landing #header_main_nav .top .header {
     height: 20px;
     overflow: visible; }
-  rl-mt-fcr-landing header {
+  rl-mt-laundry-landing header {
     display: block; }
-  rl-mt-fcr-landing #main-nav {
+  rl-mt-laundry-landing #main-nav {
     position: absolute;
     left: 0;
     top: 0;
@@ -227,14 +227,14 @@ rl-mt-fcr-landing {
     background-repeat: repeat;
     display: none;
     color: #363636; }
-  rl-mt-fcr-landing #main-nav a, rl-mt-fcr-landing #main-nav a:hover, rl-mt-fcr-landing #main-nav a:visited {
+  rl-mt-laundry-landing #main-nav a, rl-mt-laundry-landing #main-nav a:hover, rl-mt-laundry-landing #main-nav a:visited {
     color: #363636;
     text-decoration: none; }
-  rl-mt-fcr-landing #main-nav-container {
+  rl-mt-laundry-landing #main-nav-container {
     position: absolute;
     width: 100%;
     height: auto; }
-  rl-mt-fcr-landing .main-page {
+  rl-mt-laundry-landing .main-page {
     background-color: #ffffff;
     position: relative;
     z-index: 100;
@@ -243,27 +243,27 @@ rl-mt-fcr-landing {
     float: left;
     width: 100%;
     min-height: 428px; }
-  rl-mt-fcr-landing .main-container {
+  rl-mt-laundry-landing .main-container {
     position: relative;
     height: 100%; }
-  rl-mt-fcr-landing #main-nav ul {
+  rl-mt-laundry-landing #main-nav ul {
     background-color: #ffffff; }
-  rl-mt-fcr-landing #main-nav li.submenu ul {
+  rl-mt-laundry-landing #main-nav li.submenu ul {
     display: none; }
-  rl-mt-fcr-landing #main-nav li, rl-mt-fcr-landing #main-nav li a #main-nav li span {
+  rl-mt-laundry-landing #main-nav li, rl-mt-laundry-landing #main-nav li a #main-nav li span {
     width: 255px;
     display: block;
     font-size: 14px;
     -webkit-tap-highlight-color: transparent; }
-  rl-mt-fcr-landing #main-nav li {
+  rl-mt-laundry-landing #main-nav li {
     border-bottom: 1px dotted #D6D6D6;
     cursor: pointer;
     line-height: 22px; }
-  rl-mt-fcr-landing #main-nav li a {
+  rl-mt-laundry-landing #main-nav li a {
     padding: 10px 10px 10px 17px;
     width: 100%;
     display: block; }
-  rl-mt-fcr-landing #main-nav li.home-item {
+  rl-mt-laundry-landing #main-nav li.home-item {
     font-size: 18px;
     text-indent: 25px;
     border-bottom: 1px solid #D6D6D6;
@@ -272,37 +272,37 @@ rl-mt-fcr-landing {
     background-size: 20px 50px;
     -webkit-background-size: 20px 50px;
     background-position: 6% 13px; }
-  rl-mt-fcr-landing #main-nav li.home-item.hold a {
+  rl-mt-laundry-landing #main-nav li.home-item.hold a {
     background-image: url("http://www.whirlpool.ca/images/template/home-sprite.png");
     background-repeat: no-repeat;
     background-size: 20px 50px;
     -webkit-background-size: 20px 50px;
     background-position: 6% -22px; }
-  rl-mt-fcr-landing #main-nav li.hold, rl-mt-fcr-landing #main-nav li.hold a {
+  rl-mt-laundry-landing #main-nav li.hold, rl-mt-laundry-landing #main-nav li.hold a {
     background-color: #eeb111;
     color: #ffffff; }
-  rl-mt-fcr-landing #main-nav li:last-child {
+  rl-mt-laundry-landing #main-nav li:last-child {
     border-bottom: solid 1px #D6D6D6; }
-  rl-mt-fcr-landing #main-nav li.submenu {
+  rl-mt-laundry-landing #main-nav li.submenu {
     background-image: url("http://www.kitchenaid.ca/images/template/nav-next-sprite.png");
     background-repeat: no-repeat;
     background-position: 94% 13px;
     background-size: 15px 60px;
     -webkit-background-size: 15px 60px;
     padding: 10px 10px 10px 17px; }
-  rl-mt-fcr-landing #main-nav li.submenu-about {
+  rl-mt-laundry-landing #main-nav li.submenu-about {
     font-size: 13px; }
-  rl-mt-fcr-landing #main-nav li.submenu-about a {
+  rl-mt-laundry-landing #main-nav li.submenu-about a {
     padding: 15px 10px 15px 17px;
     width: 100%;
     display: block; }
-  rl-mt-fcr-landing .submenu-about .sub-title {
+  rl-mt-laundry-landing .submenu-about .sub-title {
     font-size: 18px; }
-  rl-mt-fcr-landing .submenu-about .sub-collection {
+  rl-mt-laundry-landing .submenu-about .sub-collection {
     width: 190px;
     line-height: 17px;
     margin-bottom: 8px; }
-  rl-mt-fcr-landing #main-nav li.menu-back {
+  rl-mt-laundry-landing #main-nav li.menu-back {
     background-image: url("../images/template/nav-back-sprite.png");
     background-repeat: no-repeat;
     background-position: 6% 16px;
@@ -311,11 +311,11 @@ rl-mt-fcr-landing {
     -webkit-background-size: 6px 60px;
     font-size: 18px;
     padding: 10px 10px 10px 17px; }
-  rl-mt-fcr-landing #main-nav li.menu-back.hold,
-  rl-mt-fcr-landing #main-nav li.menu-back-light.hold {
+  rl-mt-laundry-landing #main-nav li.menu-back.hold,
+  rl-mt-laundry-landing #main-nav li.menu-back-light.hold {
     background-image: url("../images/template/nav-back-sprite.png");
     background-position: 6% -9px; }
-  rl-mt-fcr-landing #main-nav li.menu-back-light {
+  rl-mt-laundry-landing #main-nav li.menu-back-light {
     background-image: url("../images/template/nav-back-sprite.png");
     background-repeat: no-repeat;
     background-position: 6% -33px;
@@ -325,16 +325,16 @@ rl-mt-fcr-landing {
     font-size: 18px;
     color: #919195;
     padding: 10px 10px 10px 17px; }
-  rl-mt-fcr-landing #main-nav li.menu-back-light.hold {
+  rl-mt-laundry-landing #main-nav li.menu-back-light.hold {
     color: #ffffff; }
-  rl-mt-fcr-landing #main-nav li.menu-back span, rl-mt-fcr-landing #main-nav li.menu-back-light span {
+  rl-mt-laundry-landing #main-nav li.menu-back span, rl-mt-laundry-landing #main-nav li.menu-back-light span {
     padding-left: 15px; }
-  rl-mt-fcr-landing .submenu-container {
+  rl-mt-laundry-landing .submenu-container {
     display: none;
     position: absolute;
     background-color: #ffffff;
     width: 100%; }
-  rl-mt-fcr-landing .content-overlay {
+  rl-mt-laundry-landing .content-overlay {
     position: fixed;
     left: 0px;
     right: 0;
@@ -347,73 +347,73 @@ rl-mt-fcr-landing {
     z-index: 10000000;
     display: none;
     overflow: hidden; }
-  rl-mt-fcr-landing .nav-footer {
+  rl-mt-laundry-landing .nav-footer {
     color: #363636;
     font-size: 12px; }
-  rl-mt-fcr-landing #main-nav .nav-footer-links li a {
+  rl-mt-laundry-landing #main-nav .nav-footer-links li a {
     padding: 0px; }
-  rl-mt-fcr-landing #main-nav .nav-footer-links li:active, rl-mt-fcr-landing #main-nav .nav-footer-links li a:active,
-  rl-mt-fcr-landing #main-nav .nav-footer-links ul li.hold, rl-mt-fcr-landing #main-nav .nav-footer-links ul li.hold a {
+  rl-mt-laundry-landing #main-nav .nav-footer-links li:active, rl-mt-laundry-landing #main-nav .nav-footer-links li a:active,
+  rl-mt-laundry-landing #main-nav .nav-footer-links ul li.hold, rl-mt-laundry-landing #main-nav .nav-footer-links ul li.hold a {
     background-color: transparent;
     color: #eeb111; }
-  rl-mt-fcr-landing #main-nav .nav-copyright-links a:active {
+  rl-mt-laundry-landing #main-nav .nav-copyright-links a:active {
     color: #eeb111; }
-  rl-mt-fcr-landing .nav-footer hr {
+  rl-mt-laundry-landing .nav-footer hr {
     border-top: 1px solid #959595;
     border-bottom: 1px solid #ffffff;
     height: 2px;
     margin-bottom: 4px; }
-  rl-mt-fcr-landing .nav-social {
+  rl-mt-laundry-landing .nav-social {
     padding: 25px 17px 36px; }
-  rl-mt-fcr-landing .nav-social div {
+  rl-mt-laundry-landing .nav-social div {
     float: left; }
-  rl-mt-fcr-landing .nav-social div:first-child {
+  rl-mt-laundry-landing .nav-social div:first-child {
     float: none;
     margin-bottom: 14px; }
-  rl-mt-fcr-landing .nav-social .facebook img {
+  rl-mt-laundry-landing .nav-social .facebook img {
     width: 32px;
     height: 32px;
     margin-right: 23px; }
-  rl-mt-fcr-landing .nav-social .twitter img {
+  rl-mt-laundry-landing .nav-social .twitter img {
     width: 39px;
     height: 32px;
     margin-right: 16px; }
-  rl-mt-fcr-landing .nav-social .youtube img {
+  rl-mt-laundry-landing .nav-social .youtube img {
     width: 52px;
     height: 21px;
     margin-right: 23px; }
-  rl-mt-fcr-landing .nav-social .pintrest img {
+  rl-mt-laundry-landing .nav-social .pintrest img {
     width: 35px;
     height: 35px; }
-  rl-mt-fcr-landing #main-nav .nav-footer-links {
+  rl-mt-laundry-landing #main-nav .nav-footer-links {
     margin-top: 17px; }
-  rl-mt-fcr-landing #main-nav .nav-footer-links ul {
+  rl-mt-laundry-landing #main-nav .nav-footer-links ul {
     float: left;
     width: 120px;
     background-color: transparent;
     margin-bottom: 14px; }
-  rl-mt-fcr-landing #main-nav .nav-footer-links ul:first-child {
+  rl-mt-laundry-landing #main-nav .nav-footer-links ul:first-child {
     padding-left: 12px; }
-  rl-mt-fcr-landing #main-nav .nav-footer-links ul li {
+  rl-mt-laundry-landing #main-nav .nav-footer-links ul li {
     background-color: transparent;
     border: 0px;
     font-size: 11px;
     padding: 0px 5px 5px 5px; }
-  rl-mt-fcr-landing #main-nav .nav-footer-links li:last-child {
+  rl-mt-laundry-landing #main-nav .nav-footer-links li:last-child {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
-  rl-mt-fcr-landing .nav-copyright-links {
+  rl-mt-laundry-landing .nav-copyright-links {
     font-size: 11px;
     padding: 0px 17px 10px;
     line-height: 26px; }
-  rl-mt-fcr-landing #main-nav-container {
+  rl-mt-laundry-landing #main-nav-container {
     overflow: hidden; }
-    rl-mt-fcr-landing #main-nav-container ul {
+    rl-mt-laundry-landing #main-nav-container ul {
       padding-left: 0; }
-  rl-mt-fcr-landing #main-nav {
+  rl-mt-laundry-landing #main-nav {
     overflow-x: scroll; }
-  rl-mt-fcr-landing .mobileOverlay {
+  rl-mt-laundry-landing .mobileOverlay {
     position: absolute;
     background-color: #333333;
     opacity: 0;
@@ -421,88 +421,90 @@ rl-mt-fcr-landing {
     z-index: 101;
     display: none; }
   @media screen and (min-width: 580px) {
-    rl-mt-fcr-landing #main-nav, rl-mt-fcr-landing .mobileOverlay {
+    rl-mt-laundry-landing #main-nav, rl-mt-laundry-landing .mobileOverlay {
       height: 1000px !important; } }
   @media screen and (min-width: 1023px) {
-    rl-mt-fcr-landing #main-nav {
+    rl-mt-laundry-landing #main-nav {
       display: none !important; } }
-  rl-mt-fcr-landing videoplayer > h2 {
+  rl-mt-laundry-landing videoplayer > h2 {
     font-size: 3em;
     text-align: center;
     width: 100%;
     margin-top: 0px;
     margin-bottom: 20px; }
     @media screen and (max-width: 820px) {
-      rl-mt-fcr-landing videoplayer > h2 {
+      rl-mt-laundry-landing videoplayer > h2 {
         margin-top: 10px;
         margin-bottom: 24px;
         font-size: 2em; } }
-  rl-mt-fcr-landing videoplayer h2.wp-refer-landing-videoplayer-title {
+  rl-mt-laundry-landing videoplayer h2.wp-refer-landing-videoplayer-title {
     color: #FFF !important; }
     @media screen and (max-width: 820px) {
-      rl-mt-fcr-landing videoplayer h2.wp-refer-landing-videoplayer-title {
+      rl-mt-laundry-landing videoplayer h2.wp-refer-landing-videoplayer-title {
         font-size: 1em; } }
-  rl-mt-fcr-landing videoplayer > ul {
+  rl-mt-laundry-landing videoplayer > ul {
     overflow: hidden;
     background-color: #002e5a; }
-    rl-mt-fcr-landing videoplayer > ul li {
+    rl-mt-laundry-landing videoplayer > ul li {
       float: left;
       width: 33.3334%;
       padding: 0 3px; }
-    rl-mt-fcr-landing videoplayer > ul li:first-child {
+    rl-mt-laundry-landing videoplayer > ul li:first-child {
       padding-left: 0; }
-    rl-mt-fcr-landing videoplayer > ul li:last-child {
+    rl-mt-laundry-landing videoplayer > ul li:last-child {
       padding-right: 0; }
-  rl-mt-fcr-landing videoplayer-player {
+  rl-mt-laundry-landing videoplayer-player {
     width: 100%; }
-    rl-mt-fcr-landing videoplayer-player ul {
+    rl-mt-laundry-landing videoplayer-player ul {
       overflow: auto; }
-    rl-mt-fcr-landing videoplayer-player ul li {
+    rl-mt-laundry-landing videoplayer-player ul li {
       width: 100%; }
-    rl-mt-fcr-landing videoplayer-player videoplayer-video {
+    rl-mt-laundry-landing videoplayer-player videoplayer-video {
       width: 100%; }
-      rl-mt-fcr-landing videoplayer-player videoplayer-video img {
+      rl-mt-laundry-landing videoplayer-player videoplayer-video img {
         width: 100%; }
-    rl-mt-fcr-landing videoplayer-player .wp-refer-landing-videoplayer-text {
+    rl-mt-laundry-landing videoplayer-player .wp-refer-landing-videoplayer-text {
       width: 100%;
       padding: 28px 40px;
       background-color: #002e5a;
       color: #FFFFFF;
       margin-top: -5px; }
-      rl-mt-fcr-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-description, rl-mt-fcr-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
+      rl-mt-laundry-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-description, rl-mt-laundry-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
         text-align: center; }
-      rl-mt-fcr-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
+      rl-mt-laundry-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
         letter-spacing: 0px; }
-      rl-mt-fcr-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-description {
+      rl-mt-laundry-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-description {
         margin-top: 10px; }
         @media screen and (max-width: 820px) {
-          rl-mt-fcr-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-description {
+          rl-mt-laundry-landing videoplayer-player .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-description {
             font-size: 66%; } }
-  rl-mt-fcr-landing videoplayer-selector {
+  rl-mt-laundry-landing videoplayer-selector {
     width: 100%; }
-    rl-mt-fcr-landing videoplayer-selector > div {
+    rl-mt-laundry-landing videoplayer-selector > div {
       height: inherit; }
-    rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-background {
+    rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-background {
       width: 100%;
       opacity: 0.45; }
-    rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-text {
+    rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-text {
       width: 100%;
       top: 50%;
       transform: translateY(-50%);
       z-index: 2;
       position: absolute; }
-      rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title, rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button {
+      rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title, rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button {
         text-align: center;
         color: #FFFFFF;
         border-radius: 15px; }
-      rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
+      rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
         font-size: 1.7em;
         width: 100%;
-        color: #FFFFFF !important; }
+        color: #FFFFFF !important;
+        padding: 0 40px; }
         @media screen and (max-width: 820px) {
-          rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
-            font-size: 1.0em; } }
-      rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button {
+          rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-text .wp-refer-landing-videoplayer-title {
+            font-size: 1.0em;
+            padding: 0 5px; } }
+      rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button {
         font-size: 0.8em;
         position: relative;
         top: 60%;
@@ -515,114 +517,114 @@ rl-mt-fcr-landing {
         -o-transition: all 0.2s ease;
         transition: all 0.2s ease; }
         @media screen and (max-width: 785px) {
-          rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button {
+          rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button {
             display: none; } }
-        rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button p {
+        rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button p {
           display: block;
           margin: 1px 0 0 -19px; }
-        rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button p:after {
+        rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button p:after {
           content: url("../images/play-icon.png");
           position: absolute;
           top: 5px;
           right: 9px; }
-        rl-mt-fcr-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button img {
+        rl-mt-laundry-landing videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button img {
           margin-top: 0; }
-    rl-mt-fcr-landing videoplayer-selector videoplayer-selector:hover learn-more-button {
+    rl-mt-laundry-landing videoplayer-selector videoplayer-selector:hover learn-more-button {
       filter: grayscale(100%);
       -webkit-filter: grayscale(100%);
       -moz-filter: grayscale(100%);
       -o-filter: grayscale(100%); }
-    rl-mt-fcr-landing videoplayer-selector > div {
+    rl-mt-laundry-landing videoplayer-selector > div {
       position: relative;
       cursor: pointer;
       background-color: #000000; }
-    rl-mt-fcr-landing videoplayer-selector .selected {
+    rl-mt-laundry-landing videoplayer-selector .selected {
       cursor: default; }
-      rl-mt-fcr-landing videoplayer-selector .selected * {
+      rl-mt-laundry-landing videoplayer-selector .selected * {
         cursor: default; }
-      rl-mt-fcr-landing videoplayer-selector .selected learn-more-button {
+      rl-mt-laundry-landing videoplayer-selector .selected learn-more-button {
         opacity: 0; }
-      rl-mt-fcr-landing videoplayer-selector .selected .wp-refer-landing-videoplayer-background {
+      rl-mt-laundry-landing videoplayer-selector .selected .wp-refer-landing-videoplayer-background {
         opacity: 1; }
-      rl-mt-fcr-landing videoplayer-selector .selected .wp-refer-landing-videoplayer-title {
+      rl-mt-laundry-landing videoplayer-selector .selected .wp-refer-landing-videoplayer-title {
         opacity: 0; }
-  rl-mt-fcr-landing videoplayer.fr videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button {
+  rl-mt-laundry-landing videoplayer.fr videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button {
     width: 40%;
     line-height: 22px; }
-  rl-mt-fcr-landing videoplayer.fr videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button p {
+  rl-mt-laundry-landing videoplayer.fr videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button p {
     margin: 2px 0 0 0; }
-  rl-mt-fcr-landing videoplayer.fr videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button p:after {
+  rl-mt-laundry-landing videoplayer.fr videoplayer-selector .wp-refer-landing-videoplayer-text learn-more-button p:after {
     content: ''; }
-  rl-mt-fcr-landing masthead {
+  rl-mt-laundry-landing masthead {
     width: 80%;
     position: relative;
     display: block;
     overflow: hidden; }
     @media screen and (max-width: 820px) {
-      rl-mt-fcr-landing masthead {
+      rl-mt-laundry-landing masthead {
         padding-top: initial; } }
-    rl-mt-fcr-landing masthead .mt-landing-image {
+    rl-mt-laundry-landing masthead .mt-landing-image {
       position: relative;
       overflow: hidden;
       cursor: default;
       margin-bottom: 20px;
       z-index: 1; }
-      rl-mt-fcr-landing masthead .mt-landing-image img:first-child {
+      rl-mt-laundry-landing masthead .mt-landing-image img:first-child {
         z-index: 1; }
-      rl-mt-fcr-landing masthead .mt-landing-image img:last-child {
+      rl-mt-laundry-landing masthead .mt-landing-image img:last-child {
         position: absolute;
         z-index: 2;
         opacity: 0;
         top: 0;
         left: 0; }
-    rl-mt-fcr-landing masthead .mt-landing-light {
+    rl-mt-laundry-landing masthead .mt-landing-light {
       position: absolute;
       width: 30%;
       right: 7%;
       bottom: -20%;
       z-index: 2; }
-    rl-mt-fcr-landing masthead img {
+    rl-mt-laundry-landing masthead img {
       width: 100%;
       -webkit-transition: all 0.5s ease;
       -moz-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
       transition: all 0.5s ease; }
-    rl-mt-fcr-landing masthead .mt-landing-title h1 {
+    rl-mt-laundry-landing masthead .mt-landing-title h1 {
       text-transform: uppercase;
       font-weight: 100;
       font-size: 32px; }
       @media screen and (max-width: 768px) {
-        rl-mt-fcr-landing masthead .mt-landing-title h1 {
+        rl-mt-laundry-landing masthead .mt-landing-title h1 {
           text-align: center;
           padding-bottom: 10px;
           left: 0; } }
       @media screen and (max-width: 479px) {
-        rl-mt-fcr-landing masthead .mt-landing-title h1 {
+        rl-mt-laundry-landing masthead .mt-landing-title h1 {
           line-height: 34px;
           margin-top: 20px; } }
-  rl-mt-fcr-landing features {
+  rl-mt-laundry-landing features {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
-    rl-mt-fcr-landing features .row {
+    rl-mt-laundry-landing features .row {
       width: 100%;
       height: 235px;
       float: none; }
     @media screen and (max-width: 785px) {
-      rl-mt-fcr-landing features .row {
+      rl-mt-laundry-landing features .row {
         height: 210px;
         width: 100%;
         position: relative;
         left: .3%; } }
     @media (max-width: 479px) {
-      rl-mt-fcr-landing features .row {
+      rl-mt-laundry-landing features .row {
         height: 165px; } }
-    rl-mt-fcr-landing features feature-button {
+    rl-mt-laundry-landing features feature-button {
       width: 33.3333333333333%;
       display: block;
       float: left; }
-    rl-mt-fcr-landing features .mt-landing-feature-icon {
+    rl-mt-laundry-landing features .mt-landing-feature-icon {
       width: 100px;
       height: 100px;
       border-radius: 50px;
@@ -632,7 +634,7 @@ rl-mt-fcr-landing {
       right: 0;
       overflow: hidden;
       margin: auto; }
-      rl-mt-fcr-landing features .mt-landing-feature-icon > img {
+      rl-mt-laundry-landing features .mt-landing-feature-icon > img {
         width: 75px;
         height: 75px;
         position: absolute;
@@ -642,14 +644,14 @@ rl-mt-fcr-landing {
         left: 0;
         right: 0; }
       @media screen and (max-width: 479px) {
-        rl-mt-fcr-landing features .mt-landing-feature-icon {
+        rl-mt-laundry-landing features .mt-landing-feature-icon {
           width: 60px;
           height: 60px;
           top: 20px; }
-          rl-mt-fcr-landing features .mt-landing-feature-icon img {
+          rl-mt-laundry-landing features .mt-landing-feature-icon img {
             width: 45px;
             height: 45px; } }
-    rl-mt-fcr-landing features .mt-landing-feature-title {
+    rl-mt-laundry-landing features .mt-landing-feature-title {
       text-transform: uppercase;
       width: 100%;
       top: 150px;
@@ -658,10 +660,10 @@ rl-mt-fcr-landing {
       letter-spacing: 0px;
       font-size: 1.2em; }
       @media screen and (max-width: 479px) {
-        rl-mt-fcr-landing features .mt-landing-feature-title {
+        rl-mt-laundry-landing features .mt-landing-feature-title {
           font-size: 12px;
           top: 110px; } }
-    rl-mt-fcr-landing features .mt-landing-feature-button-over {
+    rl-mt-laundry-landing features .mt-landing-feature-button-over {
       opacity: 0;
       z-index: 2;
       width: 100%;
@@ -671,24 +673,24 @@ rl-mt-fcr-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-    rl-mt-fcr-landing features .mt-landing-feature-button-over-table {
+    rl-mt-laundry-landing features .mt-landing-feature-button-over-table {
       width: 100%;
       height: 100%;
       display: table;
       z-index: 2; }
-    rl-mt-fcr-landing features .mt-landing-feature-button-over-table-cell {
+    rl-mt-laundry-landing features .mt-landing-feature-button-over-table-cell {
       vertical-align: middle;
       display: table-cell; }
-    rl-mt-fcr-landing features .mt-landing-feature-button:hover .mt-landing-feature-button-over {
+    rl-mt-laundry-landing features .mt-landing-feature-button:hover .mt-landing-feature-button-over {
       opacity: 1; }
-    rl-mt-fcr-landing features .mt-landing-feature-copy-container {
+    rl-mt-laundry-landing features .mt-landing-feature-copy-container {
       color: #898989;
       position: relative;
       height: inherit;
       width: inherit;
       vertical-align: middle;
       padding: 0 14px; }
-    rl-mt-fcr-landing features .mt-landing-over-copy {
+    rl-mt-laundry-landing features .mt-landing-over-copy {
       font-weight: 100;
       margin-bottom: 5px;
       color: #FFF;
@@ -700,23 +702,23 @@ rl-mt-fcr-landing {
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
       @media screen and (max-width: 1275px) {
-        rl-mt-fcr-landing features .mt-landing-over-copy {
+        rl-mt-laundry-landing features .mt-landing-over-copy {
           font-size: smaller;
           top: 144px; } }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing features .mt-landing-over-copy {
+        rl-mt-laundry-landing features .mt-landing-over-copy {
           top: 135px; } }
-    rl-mt-fcr-landing features .mt-landing-over-copy, rl-mt-fcr-landing features .mt-landing-over-cta {
+    rl-mt-laundry-landing features .mt-landing-over-copy, rl-mt-laundry-landing features .mt-landing-over-cta {
       width: 100%;
       text-align: center; }
-    rl-mt-fcr-landing features .mt-landing-over-cta {
+    rl-mt-laundry-landing features .mt-landing-over-cta {
       font-family: Arial, sans-serif;
       font-weight: 400;
       color: #FFF; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing features .mt-landing-over-cta {
+        rl-mt-laundry-landing features .mt-landing-over-cta {
           font-size: 0.8em; } }
-    rl-mt-fcr-landing features .mt-landing-feature-button-over-background, rl-mt-fcr-landing features .mt-landing-feature-button-over-container {
+    rl-mt-laundry-landing features .mt-landing-feature-button-over-background, rl-mt-laundry-landing features .mt-landing-feature-button-over-container {
       height: 100%;
       width: 100%;
       background-color: #002e5a;
@@ -724,9 +726,9 @@ rl-mt-fcr-landing {
       left: 0;
       top: 0;
       z-index: 1; }
-    rl-mt-fcr-landing features .mt-landing-feature-button-over-container {
+    rl-mt-laundry-landing features .mt-landing-feature-button-over-container {
       z-index: 2; }
-    rl-mt-fcr-landing features .mt-landing-feature-button {
+    rl-mt-laundry-landing features .mt-landing-feature-button {
       height: 235px;
       position: relative;
       box-sizing: border-box;
@@ -735,12 +737,12 @@ rl-mt-fcr-landing {
       -moz-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
       transition: all 0.5s ease; }
-      rl-mt-fcr-landing features .mt-landing-feature-button .mt-landing-feature-button-up {
+      rl-mt-laundry-landing features .mt-landing-feature-button .mt-landing-feature-button-up {
         position: relative;
         z-index: 1; }
-      rl-mt-fcr-landing features .mt-landing-feature-button .mt-landing-innerBtn {
+      rl-mt-laundry-landing features .mt-landing-feature-button .mt-landing-innerBtn {
         position: absolute; }
-      rl-mt-fcr-landing features .mt-landing-feature-button .mt-landing-feature-rule {
+      rl-mt-laundry-landing features .mt-landing-feature-button .mt-landing-feature-rule {
         width: 30%;
         height: 5px;
         border-top: 3px solid #002e5a;
@@ -751,29 +753,29 @@ rl-mt-fcr-landing {
         margin-right: auto;
         margin-top: 10px; }
         @media (max-width: 479px) {
-          rl-mt-fcr-landing features .mt-landing-feature-button .mt-landing-feature-rule {
+          rl-mt-laundry-landing features .mt-landing-feature-button .mt-landing-feature-rule {
             top: 88px; } }
       @media (max-width: 479px) {
-        rl-mt-fcr-landing features .mt-landing-feature-button {
+        rl-mt-laundry-landing features .mt-landing-feature-button {
           height: 165px; } }
-    rl-mt-fcr-landing features .mt-landing-feature-button:hover .mt-landing-over-copy {
+    rl-mt-laundry-landing features .mt-landing-feature-button:hover .mt-landing-over-copy {
       opacity: 1; }
     @media screen and (max-width: 820px) {
-      rl-mt-fcr-landing features .mt-landing-feature-button .mt-landing-over-copy {
+      rl-mt-laundry-landing features .mt-landing-feature-button .mt-landing-over-copy {
         opacity: 1; } }
-    rl-mt-fcr-landing features feature-button:first-of-type .mt-landing-feature-button {
+    rl-mt-laundry-landing features feature-button:first-of-type .mt-landing-feature-button {
       margin-left: 0px;
       margin-right: 3px; }
-    rl-mt-fcr-landing features feature-button:last-of-type .mt-landing-feature-button {
+    rl-mt-laundry-landing features feature-button:last-of-type .mt-landing-feature-button {
       margin-right: 0px;
       margin-left: 3px; }
-  rl-mt-fcr-landing product-selector {
+  rl-mt-laundry-landing product-selector {
     width: 80%;
     position: relative;
     -webkit-transition: all 1s;
     transition: all 1s;
     margin-bottom: 60px !important; }
-    rl-mt-fcr-landing product-selector h2 {
+    rl-mt-laundry-landing product-selector h2 {
       font-size: 3em;
       text-align: center;
       font-weight: 800;
@@ -781,46 +783,46 @@ rl-mt-fcr-landing {
       margin-top: 50px;
       margin-bottom: 50px; }
       @media screen and (max-width: 1366px) {
-        rl-mt-fcr-landing product-selector h2 {
+        rl-mt-laundry-landing product-selector h2 {
           font-size: 2em;
           margin-top: 35px; } }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector h2 {
+        rl-mt-laundry-landing product-selector h2 {
           margin-bottom: 0px !important; } }
       @media screen and (max-width: 479px) {
-        rl-mt-fcr-landing product-selector h2 {
+        rl-mt-laundry-landing product-selector h2 {
           height: 20px;
           line-height: normal; } }
-    rl-mt-fcr-landing product-selector #french-door, rl-mt-fcr-landing product-selector #side-by-side, rl-mt-fcr-landing product-selector #bottom-freezer, rl-mt-fcr-landing product-selector #under-counter, rl-mt-fcr-landing product-selector #built-in {
+    rl-mt-laundry-landing product-selector #french-door, rl-mt-laundry-landing product-selector #side-by-side, rl-mt-laundry-landing product-selector #bottom-freezer, rl-mt-laundry-landing product-selector #under-counter, rl-mt-laundry-landing product-selector #built-in {
       opacity: 0; }
-    rl-mt-fcr-landing product-selector product-slides {
+    rl-mt-laundry-landing product-selector product-slides {
       display: inline-block;
       width: 100%;
       -webkit-transition: all 1s;
       transition: all 1s; }
-    rl-mt-fcr-landing product-selector .wp-refer-landing-product-slide {
+    rl-mt-laundry-landing product-selector .wp-refer-landing-product-slide {
       position: relative; }
-    rl-mt-fcr-landing product-selector product-slide {
+    rl-mt-laundry-landing product-selector product-slide {
       display: inline-block;
       position: relative;
       padding-top: 20px;
       padding-bottom: 20px;
       -webkit-transition: all 1s;
       transition: all 1s; }
-      rl-mt-fcr-landing product-selector product-slide #freezers img {
+      rl-mt-laundry-landing product-selector product-slide #freezers img {
         margin-left: -50px; }
         @media screen and (max-width: 820px) {
-          rl-mt-fcr-landing product-selector product-slide #freezers img {
+          rl-mt-laundry-landing product-selector product-slide #freezers img {
             margin: 0 auto; } }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector product-slide {
+        rl-mt-laundry-landing product-selector product-slide {
           width: 100%; } }
     @media screen and (max-width: 820px) {
-      rl-mt-fcr-landing product-selector product-slide:first-of-type {
+      rl-mt-laundry-landing product-selector product-slide:first-of-type {
         position: relative; } }
-    rl-mt-fcr-landing product-selector product-slide:not(.selected) {
+    rl-mt-laundry-landing product-selector product-slide:not(.selected) {
       display: none; }
-    rl-mt-fcr-landing product-selector .rl-wp-lndng-prodLeft {
+    rl-mt-laundry-landing product-selector .rl-wp-lndng-prodLeft {
       width: 50%;
       position: relative;
       float: left;
@@ -828,40 +830,40 @@ rl-mt-fcr-landing {
       -webkit-transition: all 1s;
       transition: all 1s; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector .rl-wp-lndng-prodLeft {
+        rl-mt-laundry-landing product-selector .rl-wp-lndng-prodLeft {
           float: none;
           width: 100%; } }
-    rl-mt-fcr-landing product-selector .rl-wp-lndng-prodRight {
+    rl-mt-laundry-landing product-selector .rl-wp-lndng-prodRight {
       width: 35%;
       position: relative;
       float: left;
       -webkit-transition: all 1s;
       transition: all 1s; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector .rl-wp-lndng-prodRight {
+        rl-mt-laundry-landing product-selector .rl-wp-lndng-prodRight {
           float: none;
           width: 100%; } }
-    rl-mt-fcr-landing product-selector .rl-wp-lndng-side {
+    rl-mt-laundry-landing product-selector .rl-wp-lndng-side {
       display: none;
       -webkit-transition: all 1s;
       transition: all 1s; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector .rl-wp-lndng-side {
+        rl-mt-laundry-landing product-selector .rl-wp-lndng-side {
           width: 100%; } }
-    rl-mt-fcr-landing product-selector > .row {
+    rl-mt-laundry-landing product-selector > .row {
       background-image: url("../../public/images/refer-select-shadow.png");
       background-repeat: no-repeat;
       background-position-y: 100px;
       -webkit-transition: all 1s;
       transition: all 1s; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector > .row {
+        rl-mt-laundry-landing product-selector > .row {
           background-position-y: -30px; } }
-    rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge-title.mobile {
+    rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge-title.mobile {
       display: none;
       margin-bottom: 20px; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge-title.mobile {
+        rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge-title.mobile {
           position: relative;
           top: initial;
           left: initial;
@@ -872,7 +874,7 @@ rl-mt-fcr-landing {
           width: 100%;
           margin-bottom: 10px;
           color: #000000 !important; } }
-    rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge-title {
+    rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge-title {
       position: relative;
       font-weight: 300;
       font-size: 32px;
@@ -884,42 +886,42 @@ rl-mt-fcr-landing {
       font-family: Arial, sans-serif;
       font-weight: 200; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge-title {
+        rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge-title {
           display: none; } }
-    rl-mt-fcr-landing product-selector learn-more-button {
+    rl-mt-laundry-landing product-selector learn-more-button {
       position: relative;
       width: 135px;
       height: 30px;
       opacity: 0;
       text-transform: uppercase; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector learn-more-button {
+        rl-mt-laundry-landing product-selector learn-more-button {
           position: relative;
           top: initial;
           left: initial;
           display: block;
           text-align: center;
           margin: 0 auto; } }
-    rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge {
+    rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge {
       position: relative;
       opacity: 0; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge {
+        rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge {
           left: initial;
           position: relative;
           display: block;
           top: 0;
           margin-bottom: 20px;
           width: 100%; } }
-    rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge img {
+    rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge img {
       width: 350px; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge img {
+        rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge img {
           height: 200px;
           margin-left: 50%;
           transform: translateX(-50%);
           width: initial; } }
-    rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge-desc {
+    rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge-desc {
       position: relative;
       font-size: 18.5px;
       font-weight: 100;
@@ -930,7 +932,7 @@ rl-mt-fcr-landing {
       text-align: left;
       padding-bottom: 20px; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge-desc {
+        rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge-desc {
           position: relative;
           top: initial;
           left: initial;
@@ -940,44 +942,44 @@ rl-mt-fcr-landing {
           font-size: 14px !important;
           line-height: 18px !important; } }
       @media screen and (max-width: 1366px) {
-        rl-mt-fcr-landing product-selector .rl-wp-lndng-fridge-desc {
+        rl-mt-laundry-landing product-selector .rl-wp-lndng-fridge-desc {
           font-size: 18px;
           line-height: 24px; } }
-  rl-mt-fcr-landing product-selector-nav {
+  rl-mt-laundry-landing product-selector-nav {
     position: relative;
     display: inline-block;
     padding-top: 4%;
     -webkit-transition: all 1s;
     transition: all 1s; }
-    rl-mt-fcr-landing product-selector-nav .row {
+    rl-mt-laundry-landing product-selector-nav .row {
       position: relative; }
     @media screen and (max-width: 820px) {
-      rl-mt-fcr-landing product-selector-nav {
+      rl-mt-laundry-landing product-selector-nav {
         height: 225px;
         padding-top: 0; } }
     @media screen and (max-width: 479px) {
-      rl-mt-fcr-landing product-selector-nav {
+      rl-mt-laundry-landing product-selector-nav {
         height: 400px; } }
-    rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product, rl-mt-fcr-landing product-selector-nav .see-all {
+    rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product, rl-mt-laundry-landing product-selector-nav .see-all {
       float: left;
       width: 16.6%;
       padding-right: 6px;
       padding-left: 6px; }
       @media screen and (max-width: 479px) {
-        rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product, rl-mt-fcr-landing product-selector-nav .see-all {
+        rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product, rl-mt-laundry-landing product-selector-nav .see-all {
           width: 33%; } }
-      rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product img, rl-mt-fcr-landing product-selector-nav .see-all img {
+      rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product img, rl-mt-laundry-landing product-selector-nav .see-all img {
         width: 100%; }
-    rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product > img {
+    rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product > img {
       -webkit-transition: all 0.2s ease;
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-    rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product:not(.selected) > img {
+    rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product:not(.selected) > img {
       opacity: 0.6; }
-    rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product:not(.selected) .wp-refer-landing-button {
+    rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product:not(.selected) .wp-refer-landing-button {
       color: #898989; }
-    rl-mt-fcr-landing product-selector-nav .wp-refer-landing-button {
+    rl-mt-laundry-landing product-selector-nav .wp-refer-landing-button {
       font-family: Arial Black, Arial Bold, sans-serif;
       font-weight: 200;
       margin-top: 10px;
@@ -989,7 +991,7 @@ rl-mt-fcr-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-      rl-mt-fcr-landing product-selector-nav .wp-refer-landing-button p {
+      rl-mt-laundry-landing product-selector-nav .wp-refer-landing-button p {
         width: 100%;
         line-height: 13px;
         font-size: 0.8em;
@@ -1000,24 +1002,24 @@ rl-mt-fcr-landing {
         text-align: center;
         text-transform: uppercase; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector-nav .wp-refer-landing-button p {
+        rl-mt-laundry-landing product-selector-nav .wp-refer-landing-button p {
           font-size: 0.6em;
           font-weight: 200; } }
       @media screen and (max-width: 600px) {
-        rl-mt-fcr-landing product-selector-nav .wp-refer-landing-button p {
+        rl-mt-laundry-landing product-selector-nav .wp-refer-landing-button p {
           font-size: 0.4em;
           font-weight: 100; } }
-    rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product:hover > img {
+    rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product:hover > img {
       opacity: 0.75; }
-    rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product:hover .wp-refer-landing-button {
+    rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product:hover .wp-refer-landing-button {
       background-color: #002e5a !important; }
-    rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product:hover .wp-refer-landing-button p {
+    rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product:hover .wp-refer-landing-button p {
       color: #FFFFFF !important; }
-    rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product.selected .wp-refer-landing-button {
+    rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product.selected .wp-refer-landing-button {
       background-color: #002e5a; }
-    rl-mt-fcr-landing product-selector-nav .wp-refer-landing-product.selected .wp-refer-landing-button p {
+    rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product.selected .wp-refer-landing-button p {
       color: #FFFFFF; }
-    rl-mt-fcr-landing product-selector-nav .see-all {
+    rl-mt-laundry-landing product-selector-nav .see-all {
       height: 226px;
       width: 14%;
       color: #959595;
@@ -1028,17 +1030,17 @@ rl-mt-fcr-landing {
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
-      rl-mt-fcr-landing product-selector-nav .see-all:hover {
+      rl-mt-laundry-landing product-selector-nav .see-all:hover {
         background-color: #002e5a; }
-        rl-mt-fcr-landing product-selector-nav .see-all:hover p {
+        rl-mt-laundry-landing product-selector-nav .see-all:hover p {
           color: #FFFFFF; }
-      rl-mt-fcr-landing product-selector-nav .see-all div {
+      rl-mt-laundry-landing product-selector-nav .see-all div {
         display: table;
         width: 100%;
         height: 100%;
         border: 5px solid #959595;
         font-weight: 400; }
-      rl-mt-fcr-landing product-selector-nav .see-all p {
+      rl-mt-laundry-landing product-selector-nav .see-all p {
         display: table-cell;
         vertical-align: middle;
         text-align: center;
@@ -1046,36 +1048,36 @@ rl-mt-fcr-landing {
         line-height: 26px;
         font-weight: 600; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing product-selector-nav .see-all {
+        rl-mt-laundry-landing product-selector-nav .see-all {
           display: initial;
           padding: initial;
           width: 14%;
           height: 192px; }
-          rl-mt-fcr-landing product-selector-nav .see-all div {
+          rl-mt-laundry-landing product-selector-nav .see-all div {
             margin-top: initial;
             margin: 0 auto; }
-          rl-mt-fcr-landing product-selector-nav .see-all p {
+          rl-mt-laundry-landing product-selector-nav .see-all p {
             font-size: 1em;
             line-height: 15px; } }
       @media screen and (max-width: 479px) {
-        rl-mt-fcr-landing product-selector-nav .see-all {
+        rl-mt-laundry-landing product-selector-nav .see-all {
           height: 119px; } }
   @media screen and (max-width: 479px) {
-    rl-mt-fcr-landing product-selector.fr product-slides {
+    rl-mt-laundry-landing product-selector.fr product-slides {
       margin-top: 73px; } }
   @media screen and (max-width: 479px) {
-    rl-mt-fcr-landing product-selector.fr product-selector-nav .wp-refer-landing-button p {
+    rl-mt-laundry-landing product-selector.fr product-selector-nav .wp-refer-landing-button p {
       font-size: 0.6em;
       line-height: 11px; } }
-  rl-mt-fcr-landing product-selector.fr .rl-wp-lndng-fridge-desc {
+  rl-mt-laundry-landing product-selector.fr .rl-wp-lndng-fridge-desc {
     width: 370px; }
-  rl-mt-fcr-landing product-selector.fr learn-more-button {
+  rl-mt-laundry-landing product-selector.fr learn-more-button {
     width: 165px; }
-    rl-mt-fcr-landing product-selector.fr learn-more-button .learn-more-button {
+    rl-mt-laundry-landing product-selector.fr learn-more-button .learn-more-button {
       top: 1px; }
-    rl-mt-fcr-landing product-selector.fr learn-more-button .learn-more-button p {
+    rl-mt-laundry-landing product-selector.fr learn-more-button .learn-more-button p {
       line-height: 36px; }
-  rl-mt-fcr-landing .product-slide-background {
+  rl-mt-laundry-landing .product-slide-background {
     width: 100%;
     height: 130px;
     background: url(../images/refer-select-shadow.png);
@@ -1085,9 +1087,9 @@ rl-mt-fcr-landing {
     left: -90px;
     opacity: 0.5; }
     @media screen and (max-width: 820px) {
-      rl-mt-fcr-landing .product-slide-background {
+      rl-mt-laundry-landing .product-slide-background {
         left: 0; } }
-  rl-mt-fcr-landing learn-more-button {
+  rl-mt-laundry-landing learn-more-button {
     display: block;
     position: relative;
     width: 180px;
@@ -1100,66 +1102,66 @@ rl-mt-fcr-landing {
     font-weight: 300;
     border-radius: 15px; }
     @media screen and (max-width: 685px) {
-      rl-mt-fcr-landing learn-more-button {
+      rl-mt-laundry-landing learn-more-button {
         font-size: .7em !important; } }
-    rl-mt-fcr-landing learn-more-button * {
+    rl-mt-laundry-landing learn-more-button * {
       color: #FFFFFF; }
-    rl-mt-fcr-landing learn-more-button div {
+    rl-mt-laundry-landing learn-more-button div {
       width: 100%;
       height: 100%;
       display: table;
       position: absolute;
       z-index: 2; }
-    rl-mt-fcr-landing learn-more-button p {
+    rl-mt-laundry-landing learn-more-button p {
       display: table-cell;
       vertical-align: middle;
       text-transform: uppercase;
       text-align: center;
       font-family: Arial, sans-serif;
       font-weight: 800; }
-    rl-mt-fcr-landing learn-more-button img {
+    rl-mt-laundry-landing learn-more-button img {
       position: absolute;
       left: 0;
       top: 0;
       z-index: 1;
       width: 100%;
       margin-top: 1px; }
-  rl-mt-fcr-landing learn-more-button:hover {
+  rl-mt-laundry-landing learn-more-button:hover {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%); }
-  rl-mt-fcr-landing more-features {
+  rl-mt-laundry-landing more-features {
     padding: 0px 0 70px 0;
     overflow: hidden;
     top: 35px; }
-    rl-mt-fcr-landing more-features h2 {
+    rl-mt-laundry-landing more-features h2 {
       font-size: 3em;
       text-align: center;
       width: 100%;
       margin: 32px 0;
       line-height: 34px; }
       @media screen and (max-width: 685px) {
-        rl-mt-fcr-landing more-features h2 {
+        rl-mt-laundry-landing more-features h2 {
           font-size: 2em;
           margin: 6px 0 15px 0; } }
-    rl-mt-fcr-landing more-features more-features-feature {
+    rl-mt-laundry-landing more-features more-features-feature {
       padding: 0 5px; }
-    rl-mt-fcr-landing more-features more-features-feature:first-of-type {
+    rl-mt-laundry-landing more-features more-features-feature:first-of-type {
       padding-left: initial; }
-    rl-mt-fcr-landing more-features more-features-feature:last-of-type {
+    rl-mt-laundry-landing more-features more-features-feature:last-of-type {
       padding-right: initial; }
-  rl-mt-fcr-landing more-features-feature {
+  rl-mt-laundry-landing more-features-feature {
     width: 33.33333333333%;
     float: left; }
-    rl-mt-fcr-landing more-features-feature .hover {
+    rl-mt-laundry-landing more-features-feature .hover {
       position: relative; }
-    rl-mt-fcr-landing more-features-feature .text-container:hover {
+    rl-mt-laundry-landing more-features-feature .text-container:hover {
       opacity: 0.95; }
       @media screen and (max-width: 400px) {
-        rl-mt-fcr-landing more-features-feature .text-container:hover {
+        rl-mt-laundry-landing more-features-feature .text-container:hover {
           opacity: 0; } }
-    rl-mt-fcr-landing more-features-feature .text-container {
+    rl-mt-laundry-landing more-features-feature .text-container {
       display: flex;
       display: -webkit-flex;
       align-items: center;
@@ -1175,40 +1177,40 @@ rl-mt-fcr-landing {
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease;
       background-color: #000000; }
-    rl-mt-fcr-landing more-features-feature .text-container-cell {
+    rl-mt-laundry-landing more-features-feature .text-container-cell {
       max-width: 50%; }
-      rl-mt-fcr-landing more-features-feature .text-container-cell .cta {
+      rl-mt-laundry-landing more-features-feature .text-container-cell .cta {
         font-family: Arial, sans-serif;
         font-weight: 800;
         margin-top: 5px; }
-      rl-mt-fcr-landing more-features-feature .text-container-cell p {
+      rl-mt-laundry-landing more-features-feature .text-container-cell p {
         text-align: center;
         color: #FFF; }
-    rl-mt-fcr-landing more-features-feature .spacer-top {
+    rl-mt-laundry-landing more-features-feature .spacer-top {
       max-width: 50%;
       align-self: flex-start;
       -webkit-align-self: flex-start; }
-    rl-mt-fcr-landing more-features-feature .spacer-bottom {
+    rl-mt-laundry-landing more-features-feature .spacer-bottom {
       max-width: 50%;
       align-self: flex-end;
       -webkit-align-self: flex-end; }
-    rl-mt-fcr-landing more-features-feature img {
+    rl-mt-laundry-landing more-features-feature img {
       width: 100%; }
-    rl-mt-fcr-landing more-features-feature .bottom-text {
+    rl-mt-laundry-landing more-features-feature .bottom-text {
       text-align: center;
       color: #6d6f71;
       margin-top: 15px;
       text-transform: uppercase; }
       @media screen and (max-width: 820px) {
-        rl-mt-fcr-landing more-features-feature .bottom-text {
+        rl-mt-laundry-landing more-features-feature .bottom-text {
           margin-top: 0px;
           font-size: 0.8em;
           margin-top: 6px; } }
-  rl-mt-fcr-landing banner {
+  rl-mt-laundry-landing banner {
     cursor: default; }
-    rl-mt-fcr-landing banner img {
+    rl-mt-laundry-landing banner img {
       width: 100%; }
-    rl-mt-fcr-landing banner learn-more-button {
+    rl-mt-laundry-landing banner learn-more-button {
       position: absolute;
       top: 54%;
       right: 2%;
@@ -1216,79 +1218,79 @@ rl-mt-fcr-landing {
       height: 34px;
       border-radius: 20px; }
       @media screen and (max-width: 685px) {
-        rl-mt-fcr-landing banner learn-more-button {
+        rl-mt-laundry-landing banner learn-more-button {
           font-size: small;
           top: 60%;
           width: 25%;
           height: 28px; }
-          rl-mt-fcr-landing banner learn-more-button img {
+          rl-mt-laundry-landing banner learn-more-button img {
             top: 3px; } }
-  rl-mt-fcr-landing banner.fr learn-more-button p {
+  rl-mt-laundry-landing banner.fr learn-more-button p {
     font-size: 0.8em; }
   @media screen and (max-width: 479px) {
-    rl-mt-fcr-landing banner.fr learn-more-button {
+    rl-mt-laundry-landing banner.fr learn-more-button {
       width: 31%; } }
-  rl-mt-fcr-landing footer {
+  rl-mt-laundry-landing footer {
     font-family: Helvetica, Arial, sans-serif;
     width: 100%;
     color: #333;
     padding-top: 50px;
     overflow: hidden; }
-    rl-mt-fcr-landing footer #footer-wrap {
+    rl-mt-laundry-landing footer #footer-wrap {
       width: 944px;
       margin: 0 auto;
       border-top: 1px solid #BBB;
       padding: 5px 0 10px 0; }
-    rl-mt-fcr-landing footer a {
+    rl-mt-laundry-landing footer a {
       text-decoration: none;
       color: #333; }
-    rl-mt-fcr-landing footer ul {
+    rl-mt-laundry-landing footer ul {
       float: left;
       width: 140px;
       list-style: none;
       margin: 0;
       padding: 0; }
-    rl-mt-fcr-landing footer ul:not(:last-child) {
+    rl-mt-laundry-landing footer ul:not(:last-child) {
       margin-right: 20px; }
-    rl-mt-fcr-landing footer ul li {
+    rl-mt-laundry-landing footer ul li {
       font-size: 7pt;
       width: 100%;
       margin-top: 5px; }
-      rl-mt-fcr-landing footer ul li a:hover {
+      rl-mt-laundry-landing footer ul li a:hover {
         text-decoration: underline;
         cursor: pointer; }
-      rl-mt-fcr-landing footer ul li.split {
+      rl-mt-laundry-landing footer ul li.split {
         padding-top: 15px; }
-      rl-mt-fcr-landing footer ul li.split span:first-child {
+      rl-mt-laundry-landing footer ul li.split span:first-child {
         padding-right: 3px; }
-      rl-mt-fcr-landing footer ul li.split span:last-child {
+      rl-mt-laundry-landing footer ul li.split span:last-child {
         margin-left: 3px; }
-      rl-mt-fcr-landing footer ul li:first-child {
+      rl-mt-laundry-landing footer ul li:first-child {
         text-transform: uppercase;
         color: black;
         font-weight: 500;
         padding-bottom: 5px;
         border-bottom: 1px dotted black; }
-      rl-mt-fcr-landing footer ul li:nth-child(2) {
+      rl-mt-laundry-landing footer ul li:nth-child(2) {
         margin-top: 8px; }
-  rl-mt-fcr-landing footer {
+  rl-mt-laundry-landing footer {
     width: 100%; }
-  rl-mt-fcr-landing h1, rl-mt-fcr-landing h2, rl-mt-fcr-landing h3, rl-mt-fcr-landing h4, rl-mt-fcr-landing h5, rl-mt-fcr-landing [class*='title'] {
+  rl-mt-laundry-landing h1, rl-mt-laundry-landing h2, rl-mt-laundry-landing h3, rl-mt-laundry-landing h4, rl-mt-laundry-landing h5, rl-mt-laundry-landing [class*='title'] {
     color: #6d6f71 !important;
     cursor: default;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-family: 'Akzidenz', Arial, sans-serif !important;
     font-weight: 200; }
-  rl-mt-fcr-landing .rl-mt-refer-landing-subtitle {
+  rl-mt-laundry-landing .rl-mt-refer-landing-subtitle {
     color: #002e5a !important; }
-  rl-mt-fcr-landing p, rl-mt-fcr-landing span, rl-mt-fcr-landing div {
+  rl-mt-laundry-landing p, rl-mt-laundry-landing span, rl-mt-laundry-landing div {
     cursor: pointer; }
-  rl-mt-fcr-landing *, rl-mt-fcr-landing *:before, rl-mt-fcr-landing *:after {
+  rl-mt-laundry-landing *, rl-mt-laundry-landing *:before, rl-mt-laundry-landing *:after {
     box-sizing: border-box; }
-  rl-mt-fcr-landing a {
+  rl-mt-laundry-landing a {
     color: #FFFFFF; }
-  rl-mt-fcr-landing > *:not(header):not(footer) {
+  rl-mt-laundry-landing > *:not(header):not(footer) {
     width: 100%;
     max-width: 944px;
     min-width: 320px;
@@ -1296,9 +1298,9 @@ rl-mt-fcr-landing {
     position: relative;
     display: block; }
   @media screen and (max-width: 820px) {
-    rl-mt-fcr-landing {
+    rl-mt-laundry-landing {
       margin-top: initial; } }
-  rl-mt-fcr-landing sup {
+  rl-mt-laundry-landing sup {
     font-size: 0.5em; }
 
 [class*="explorer"] features .mt-landing-feature-button-over:hover {

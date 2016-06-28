@@ -111,9 +111,11 @@ videoplayer-selector {
 			font-size: 1.7em;
 			width: 100%;
 			color: $videoPlayer-copyColor !important;
+			padding: 0 40px;
 
 			@media screen and (max-width: $mobileBreakpoint) {
 	        	font-size: 1.0em;
+	        	padding: 0 5px;
 	        }
 		}
 

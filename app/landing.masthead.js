@@ -36,20 +36,25 @@ System.register(['angular2/core', './services/appdata.service'], function(export
                 }
                 AppMasthead.prototype.ngAfterViewInit = function () {
                     var self = this;
-                    setTimeout(function () {
-                        $(self.element).find('.mt-landing-image img').last().animate({ opacity: 1 }, { duration: 350, queue: false });
-                        $(self.element).find('.mt-landing-light').animate({ bottom: '70%' }, { duration: 300, queue: false, complete: function () {
-                                var self1 = this;
-                                setTimeout(function () {
-                                    $(self1).animate({ opacity: 0 }, { duration: 100, queue: false });
-                                }, 200);
-                            } });
-                    }, 4000);
+                    if (this.imageForeground) {
+                        setTimeout(function () {
+                            $(self.element).find('.mt-landing-image img').last().animate({ opacity: 1 }, { duration: 350, queue: false });
+                            $(self.element).find('.mt-landing-light').animate({ bottom: '70%' }, { duration: 300, queue: false, complete: function () {
+                                    var self1 = this;
+                                    setTimeout(function () {
+                                        $(self1).animate({ opacity: 0 }, { duration: 100, queue: false });
+                                    }, 200);
+                                } });
+                        }, 4000);
+                    }
+                    else {
+                        $(self.element).find('.mt-landing-image img').css({ 'position': 'relative', 'opacity': '1' });
+                    }
                 };
                 AppMasthead = __decorate([
                     core_1.Component({
                         selector: 'masthead',
-                        template: "\n    \t<div class=\"{{!enabled ? 'hide': ''}}\">\n\t\t\t<div class=\"mt-landing-title\"><h1>{{title}}</h1></div>\n\t\t\t<div class=\"mt-landing-image\">\n\t\t\t\t<img src=\"{{image}}\" alt=\"{{alt}}\" />\n\t\t\t\t<img src=\"{{imageForeground}}\" alt=\"{{alt}}\" />\n\t\t\t</div>\n\t\t\t<img class=\"mt-landing-light\" src=\"./public/images/light.png\" />\n\t\t</div>\n    "
+                        template: "\n    \t<div class=\"{{!enabled ? 'hide': ''}}\">\n\t\t\t<div class=\"mt-landing-title\"><h1>{{title}}</h1></div>\n\t\t\t<div class=\"mt-landing-image\">\n\t\t\t\t<img src=\"{{image}}\" alt=\"{{alt}}\" />\n\t\t\t\t<img *ngIf=\"imageForeground\" src=\"{{imageForeground}}\" alt=\"{{alt}}\" />\n\t\t\t</div>\n\t\t\t<img class=\"mt-landing-light\" src=\"./public/images/light.png\" />\n\t\t</div>\n    "
                     }), 
                     __metadata('design:paramtypes', [appdata_service_1.AppDataService, core_1.ElementRef])
                 ], AppMasthead);

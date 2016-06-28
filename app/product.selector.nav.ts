@@ -14,9 +14,9 @@ import {AnalyticsServiceOn} from './analytics.directive'
 					<p [innerHtml]="product.prodName"></p>
 				</div>
 			</div>
-			<!-- <a target="_blank" href="{{ctaLink}}" analyticsOn="click" analyticsCategory="{{analytics.category}}" analyticsAction="{{analytics.action}}" analyticsLabel="{{analytics.label}}"><div class="see-all">
+			<a target="_blank" href="{{ctaLink}}" analyticsOn="click" analyticsCategory="{{analytics.category}}" analyticsAction="{{analytics.action}}" analyticsLabel="{{analytics.label}}"><div class="see-all">
 				<div><p [innerHtml]="ctaText"></p></div>
-			</div></a> -->
+			</div></a>
 		</div>
     `,
     directives: [AnalyticsServiceOn]

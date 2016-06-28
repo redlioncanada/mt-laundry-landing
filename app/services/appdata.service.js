@@ -30,9 +30,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                         masthead: {
                             enabled: true,
                             image: "./public/images/refer-landing-masthead-1.jpg",
-                            imageForeground: "./public/images/refer-landing-masthead-2.jpg",
                             alt: "test",
-                            title: "Cooking"
+                            title: "Laundry"
                         },
                         banner: {
                             enabled: true,
@@ -60,7 +59,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "cart",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Cooking Resources",
+                                        action: "Clicked Laundry Resources",
                                         label: "Buying Guide"
                                     }
                                 },
@@ -75,7 +74,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "star",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Cooking Resources",
+                                        action: "Clicked Laundry Resources",
                                         label: "Ratings and Reviews"
                                     }
                                 },
@@ -90,7 +89,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "magnifier",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Cooking Resources",
+                                        action: "Clicked Laundry Resources",
                                         label: "Find Your MT"
                                     }
                                 }
@@ -98,27 +97,14 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                         },
                         morefeatures: {
                             enabled: true,
-                            title: "Additional Features",
+                            title: "Get more from Maytag<sup>&reg;</sup> laundry pairs",
                             features: [
-                                {
-                                    title: "Power<sup>&trade;</sup> Burner",
-                                    image: "./public/images/more-features-1.jpg",
-                                    link: "",
-                                    alt: "test",
-                                    text: "",
-                                    cta: "",
-                                    analytics: {
-                                        category: "@category",
-                                        action: "Clicked Additional Features",
-                                        label: "Power Burner"
-                                    }
-                                },
                                 {
                                     title: "10-Year Warranty",
                                     image: "./public/images/more-features-2.jpg",
                                     link: "http://www.maytag.ca/en_CA/2_3_147/jump-page_ten-year-warranty.content.html",
                                     alt: "test",
-                                    text: "",
+                                    text: "We’re so confident Maytag laundry pairs are built to tackle tough loads for years, we’ve backed them with a 10-year limited parts warranty on the drive motor, stainless steel wash basket, and dryer drum*<br/>*visit maytag.ca for warranty details.",
                                     cta: "",
                                     analytics: {
                                         category: "@category",
@@ -127,9 +113,22 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
+                                    title: "Vibration Control Guarantee",
+                                    image: "./public/images/more-features-1.jpg",
+                                    link: "http://www.maytag.ca/other-assets/en_CA/pdf/2016_Maytag_VIBRATION_FREE_LIMITED%20GUARANTEE_EN.pdf",
+                                    alt: "test",
+                                    text: "At Maytag we don’t just talk about dependability, we back it up.",
+                                    cta: "",
+                                    analytics: {
+                                        category: "@category",
+                                        action: "Clicked Additional Features",
+                                        label: "Power Burner"
+                                    }
+                                },
+                                {
                                     title: "FIT System Guarantee",
                                     image: "./public/images/more-features-3.jpg",
-                                    link: "http://www.maytag.ca/other-assets/en_CA/pdf/FIT_Wall%20Oven_Guarantee_MTG_CANADA_2016_FINAL.pdf",
+                                    link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Laundry_Pedestals-3/102290063/",
                                     alt: "test",
                                     text: "",
                                     cta: "",
@@ -146,14 +145,14 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             title: "Built Better",
                             videos: [
                                 {
-                                    id: '14R7RmMFzf8',
+                                    id: 'TyH7i8lmvyM',
                                     thumb: './public/images/video-select-1.jpg',
-                                    title: 'Maytag<sup>&reg;</sup> Ovens – Get Cookin’ / Maytag Man',
+                                    title: 'Maytag<sup>®</sup> Washers - PowerWash<sup>™</sup> Cycle',
                                     alt: "test",
-                                    ctaTitle: 'Maytag<sup>&reg;</sup> Man',
+                                    ctaTitle: 'Maytag<sup>®</sup> PowerWash<sup>®</sup> System',
                                     ctaText: 'Watch Video',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "Maytag<sup>&reg;</sup> ovens take dependable cooking to another level, with another level.",
+                                    desc: "The Maytag® PowerWash<sup>®</sup> System works three ways to give you one great clean. Optimal Dispensers and Power Spray team together to automatically release detergent at the right time, and give clothes a more concentrated treatment for difficult stains. While the PowerWash® Cycle uses extra cleaning action to fight your worst stains in a single wash.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
@@ -161,14 +160,14 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    id: 'igvVlpAIJzc',
+                                    id: 'FuBeNRcpM6Q',
                                     thumb: './public/images/video-select-2.jpg',
-                                    title: 'Maytag&reg; Ranges - Power Pre-Heat Function',
+                                    title: 'Maytag<sup>®</sup> Laundry - Optimal Dose Dispensers',
                                     alt: "test",
-                                    ctaTitle: 'Power Pre-Heat',
+                                    ctaTitle: 'Maytag<sup>®</sup> Laundry - Optimal Dose Dispensers',
                                     ctaText: 'Watch Video',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "Alternating bake and broil elements, an air circulated convection fan - there's quite a bit going on when our Power Pre-Heat Function kicks into action to heat your oven in 8 quick minutes. But all you need to know is that it gets you one step closer to dinner being done, faster than ever before.",
+                                    desc: "Take the guesswork out of doing your laundry. Maytag's Optimal Dose Dispenser automatically adds just the right amount of detergent at just the right time for an outstanding cleaning performance. And, because it stores enough high efficiency detergent for up to twelve loads of laundry, you won’t have to add detergent with every load*.<br/><br/>*based on an 8lb load.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
@@ -176,14 +175,14 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    id: 'b5npNHPD3T4',
+                                    id: 'S_nQgte6bP0',
                                     thumb: './public/images/video-select-3.jpg',
-                                    title: 'Maytag&reg; Ranges - EvenAir True Convection',
+                                    title: 'Maytag Washers & Dryers tackle your Tough Loads | Maytag Man',
                                     alt: "test",
-                                    ctaTitle: 'EvenAir True Convection',
+                                    ctaTitle: 'Maytag All Your Things',
                                     ctaText: 'Watch Video',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "What is Maytag® EvenAir True Convection? It's a quick heating coil. It's a fan. It's both, actually. Working in tandem to move hot air more efficiently and roast up to 30% faster than a traditional oven. Giving your perfectly consistent results, no matter what you're putting inside.",
+                                    desc: "Maytag washers and dryers team up to give your laundry a truly dependable clean.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
@@ -194,116 +193,48 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                         },
                         productselector: {
                             enabled: true,
-                            title: 'Choose Your Configuration',
+                            title: 'Built to clean tough loads in two powerful configurations',
                             nav: {
                                 text: 'See<br/>All',
-                                link: 'http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Refrigeration_Refrigerators_French_Door-3/102290031/',
+                                link: '#',
                                 analytics: {
                                     category: "@category",
                                     action: "Clicked Choose Your Cooking Configuration",
-                                    label: "See all Cooking"
+                                    label: "See all Laundry"
                                 }
                             },
                             products: [
                                 {
-                                    image: "./public/images/products/front_control.png",
-                                    thumb: "./public/images/products/front_control-sml.png",
-                                    title: "Front Control Ranges",
-                                    alt: "Front Control Ranges",
-                                    desc: "The up front controls are designed for easy access, providing a sturdy, built-in look that fits effortlessly into any countertop. Looking to install at the end of the countertop run? No problem, the sides are finished too, so you can depend on your new range looking great.",
-                                    link: "http://www.maytag.ca/en_CA/kitchen-1/cooking-2/ranges-3/-[YMES8880DS]-5511597/YMES8880DS/",
-                                    id: "fcr",
+                                    image: "./public/images/products/top_load.png",
+                                    thumb: "./public/images/products/top_load-small.png",
+                                    title: "High Efficiency Top-Load",
+                                    alt: "High Efficiency Top-Load",
+                                    desc: "Looking for the best performance? This traditional style washer has come a long way, now offering the Best Cleaning in the Industry driven by the PowerWash<sup>®</sup> System! Available in medium to mega capacity up to 7.1 cu. Ft. I.E.C., the High-Efficiency Top Load laundry pairs allow you to get more laundry done at once. You can depend on this ENERGY STAR<sup>®</sup> Qualified washer and dryer to save in lifetime water and energy costs – all while providing a powerfully deep clean for every type of load.",
+                                    link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965946/",
+                                    id: "top-load",
                                     ctaText: "Learn More",
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
+                                        action: "Clicked Choose Your Laundry Configuration",
                                         label: "Front Control",
                                         learnMore: 'Learn More'
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/rear_control.png",
-                                    thumb: "./public/images/products/rear_control-sml.png",
-                                    title: "Rear Control Ranges",
-                                    alt: "Rear Control Ranges",
-                                    desc: "Rear Control Ranges can be found across all price points and offer ample flexibility in terms of style. With a back panel and standard rear controls, it is sure to fit between cabinets / countertops, or sit steadfast at the end of a run.",
-                                    link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102290012+10000150/",
-                                    id: "rcr",
+                                    image: "./public/images/products/front_load.png",
+                                    thumb: "./public/images/products/front_load-small.png",
+                                    title: "High Efficiency Front-Load",
+                                    alt: "High Efficiency Front-Load",
+                                    desc: "This contemporary style provides space saving flexibility, while also boasting the Best Cleaning in the Industry driven by the PowerWash<sup>®</sup> System*. With Advanced Vibration Control<sup>™</sup> Plus and optional stack kits, this configuration allows for quiet placement in smaller spaces.  ENERGY STAR<sup>®</sup> Qualified, High-Efficiency Front-Load Washers mean you’re saving on water and energy costs and still getting a clean you can count on.",
+                                    link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965947/",
+                                    id: "front-load",
                                     ctaText: "Learn More",
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
+                                        action: "Clicked Choose Your Laundry Configuration",
                                         label: "Rear Control",
-                                        learnMore: 'Learn More'
-                                    }
-                                },
-                                {
-                                    image: "./public/images/products/double_oven.png",
-                                    thumb: "./public/images/products/double_oven-sml.png",
-                                    title: "Double Oven Ranges",
-                                    alt: "Double Oven Ranges",
-                                    desc: "Double Ovens come in several sizes and configurations; the smaller oven is tried and true when it comes to every day cooking and the larger oven is always willing to lend a helping hand for a holiday feast. No matter which configuration you choose, you’re guaranteed to be able to take care of meals of any size.",
-                                    link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Cooking_Ranges-3/102290012+10000151/",
-                                    id: "dbl-oven",
-                                    ctaText: "Learn More",
-                                    ctaBackground: "./public/images/button-background.png",
-                                    analytics: {
-                                        category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
-                                        label: "Double Oven",
-                                        learnMore: 'Learn More'
-                                    }
-                                },
-                                {
-                                    image: "./public/images/products/wall_oven.png",
-                                    thumb: "./public/images/products/wall_oven-sml.png",
-                                    title: "Wall Ovens",
-                                    alt: "Wall Ovens",
-                                    desc: "With simplicity in mind, Wall Ovens are built-in, offering more flexibility in terms of kitchen layout. Typically installed at chest height, heavier dishes are easy-to-reach and transfer to the countertop. With Maytag, you can choose from Single Wall Oven, Double, Microwave Combination and Built-In Microwave options.",
-                                    link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Cooking_Wall_Ovens-3/102290015/",
-                                    id: "wall-ovens",
-                                    ctaText: "Learn More",
-                                    ctaBackground: "./public/images/button-background.png",
-                                    analytics: {
-                                        category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
-                                        label: "Wall Ovens",
-                                        learnMore: 'Learn More'
-                                    }
-                                },
-                                {
-                                    image: "./public/images/products/cooktop.png",
-                                    thumb: "./public/images/products/cooktop-sml.png",
-                                    title: "Cooktops",
-                                    alt: "Cooktops",
-                                    desc: "Cooktops offer a flat and sleek surface for all of your cooking needs; boiling, simmering and frying. The technology choices are the same whether you’re looking at a range cooktop or a built-in, designed to keep your kitchen looking great while delivering powerful results.",
-                                    link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Cooking_Cooktops-3/102290019/",
-                                    id: "cooktops",
-                                    ctaText: "Learn More",
-                                    ctaBackground: "./public/images/button-background.png",
-                                    analytics: {
-                                        category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
-                                        label: "Cooktops",
-                                        learnMore: 'Learn More'
-                                    }
-                                },
-                                {
-                                    image: "./public/images/products/microwave.png",
-                                    thumb: "./public/images/products/microwave-sml.png",
-                                    title: "Microwaves",
-                                    alt: "Microwaves",
-                                    desc: "No matter if it’s a range or a cooktop, microwave models are installed above your cooking area with a powerful built-in hood fan. Enhanced features are available; such as convection microwaves which use an interior fan and separate heating element to evenly circulate hot air.",
-                                    link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Cooking_Microwaves-3/102290026/",
-                                    id: "microwaves",
-                                    ctaText: "Learn More",
-                                    ctaBackground: "./public/images/button-background.png",
-                                    analytics: {
-                                        category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
-                                        label: "Microwaves",
                                         learnMore: 'Learn More'
                                     }
                                 }
@@ -344,7 +275,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "cart",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Cooking Resources",
+                                        action: "Clicked Laundry Resources",
                                         label: "Buying Guide"
                                     }
                                 },
@@ -359,7 +290,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "star",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Cooking Resources",
+                                        action: "Clicked Laundry Resources",
                                         label: "Ratings and Reviews"
                                     }
                                 },
@@ -374,7 +305,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "magnifier",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Cooking Resources",
+                                        action: "Clicked Laundry Resources",
                                         label: "Find Your MT"
                                     }
                                 }
@@ -484,7 +415,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 link: '#',
                                 analytics: {
                                     category: "@category",
-                                    action: "Clicked Choose Your Cooking Configuration",
+                                    action: "Clicked Choose Your Laundry Configuration",
                                     label: "See all Cooking"
                                 }
                             },
@@ -501,7 +432,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
+                                        action: "Clicked Choose Your Laundry Configuration",
                                         label: "Front Control",
                                         learnMore: 'Learn More'
                                     }
@@ -518,7 +449,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
+                                        action: "Clicked Choose Your Laundry Configuration",
                                         label: "Rear Control",
                                         learnMore: 'Learn More'
                                     }
@@ -535,7 +466,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
+                                        action: "Clicked Choose Your Laundry Configuration",
                                         label: "Double Oven",
                                         learnMore: 'Learn More'
                                     }
@@ -552,7 +483,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
+                                        action: "Clicked Choose Your Laundry Configuration",
                                         label: "Wall Ovens",
                                         learnMore: 'Learn More'
                                     }
@@ -569,7 +500,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
+                                        action: "Clicked Choose Your Laundry Configuration",
                                         label: "Cooktops",
                                         learnMore: 'Learn More'
                                     }
@@ -586,7 +517,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Cooking Configuration",
+                                        action: "Clicked Choose Your Laundry Configuration",
                                         label: "Microwaves",
                                         learnMore: 'Learn More'
                                     }

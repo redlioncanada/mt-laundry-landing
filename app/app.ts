@@ -23,7 +23,7 @@ import {Footer} from './landing.footer'
 
 
 @Component({
-    selector: 'rl-mt-fcr-landing',
+    selector: 'rl-mt-laundry-landing',
     template: `
 	    <masthead class="{{language}}"></masthead>
 		<features class="{{language}}"></features>
@@ -44,7 +44,7 @@ class AppComponent {
     		return window.location.href.indexOf('fr_CA/') > -1 ? 'FR' : 'EN'
     	})
         analytics.bind('category', function(str) {
-            return 'Refer Landing Page'
+            return 'Laundry Landing Page'
         })
 
         breakpoint.add('mobile', 480)

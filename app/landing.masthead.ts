@@ -10,7 +10,7 @@ declare var $: JQueryStatic;
 			<div class="mt-landing-title"><h1>{{title}}</h1></div>
 			<div class="mt-landing-image">
 				<img src="{{image}}" alt="{{alt}}" />
-				<img src="{{imageForeground}}" alt="{{alt}}" />
+				<img *ngIf="imageForeground" src="{{imageForeground}}" alt="{{alt}}" />
 			</div>
 			<img class="mt-landing-light" src="./public/images/light.png" />
 		</div>
@@ -39,14 +39,18 @@ export class AppMasthead {
 	ngAfterViewInit() {
 		var self = this
 
-		setTimeout(function() {
-			$(self.element).find('.mt-landing-image img').last().animate({ opacity: 1 }, { duration: 350, queue: false })
-			$(self.element).find('.mt-landing-light').animate({ bottom: '70%' }, { duration: 300, queue: false, complete: function() {
-				var self1 = this
-				setTimeout(function() {
-					$(self1).animate({ opacity: 0 }, { duration: 100, queue: false })
-				}, 200)
-			}});
-		}, 4000)
+		if (this.imageForeground) {
+			setTimeout(function() {
+				$(self.element).find('.mt-landing-image img').last().animate({ opacity: 1 }, { duration: 350, queue: false })
+				$(self.element).find('.mt-landing-light').animate({ bottom: '70%' }, { duration: 300, queue: false, complete: function() {
+					var self1 = this
+					setTimeout(function() {
+						$(self1).animate({ opacity: 0 }, { duration: 100, queue: false })
+					}, 200)
+				}});
+			}, 4000)
+		} else {
+			$(self.element).find('.mt-landing-image img').css({'position':'relative','opacity':'1'})
+		}
 	}
 }
