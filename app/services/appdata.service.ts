@@ -85,7 +85,7 @@ export class AppDataService {
 				title: "Get more from Maytag<sup>&reg;</sup> laundry pairs",
 				features: [
 					{
-						title: "10-Year Warranty",
+						title: "Vibration Control Guarantee",
 						image: "./public/images/more-features-2.jpg",
 						link: "http://www.maytag.ca/en_CA/2_3_147/jump-page_ten-year-warranty.content.html",
 						alt: "test",
@@ -98,7 +98,7 @@ export class AppDataService {
 						}
 					},
 					{
-						title: "Vibration Control Guarantee",
+						title: "10-Year Warranty",
 						image: "./public/images/more-features-1.jpg",
 						link: "http://www.maytag.ca/other-assets/en_CA/pdf/2016_Maytag_VIBRATION_FREE_LIMITED%20GUARANTEE_EN.pdf",
 						alt: "test",
@@ -111,7 +111,7 @@ export class AppDataService {
 						}
 					},
 					{
-						title: "FIT System Guarantee",
+						title: "Additional Accessories",
 						image: "./public/images/more-features-3.jpg",
 						link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Laundry_Pedestals-3/102290063/",
 						alt: "test",
@@ -162,9 +162,9 @@ export class AppDataService {
 					{
 						id: 'S_nQgte6bP0',
 						thumb: './public/images/video-select-3.jpg',
-						title: 'Maytag Washers & Dryers tackle your Tough Loads | Maytag Man',
+						title: 'Maytag<sup>®</sup> Washers & Dryers tackle your Tough Loads | Maytag<sup>®</sup> Man',
 						alt: "test",
-						ctaTitle: 'Maytag All Your Things',
+						ctaTitle: 'Maytag<sup>®</sup> All Your Things',
 						ctaText: 'Watch Video',
 						ctaBackground: "./public/images/button-background.png",
 						desc: "Maytag washers and dryers team up to give your laundry a truly dependable clean.",
@@ -178,7 +178,7 @@ export class AppDataService {
 			},
 			productselector: {
 				enabled: true,
-				title: 'Built to clean tough loads in two powerful configurations',
+				title: 'Built to clean tough loads in<br/>two powerful configurations',
 				nav: {
 					text: 'See<br/>All',
 					link: '#',
@@ -192,7 +192,7 @@ export class AppDataService {
 					{
 						image: "./public/images/products/top_load.png",
 						thumb: "./public/images/products/top_load-small.png",
-                        title: "High Efficiency Top-Load",
+                        title: "High Efficiency<br/>Top-Load",
                         alt: "High Efficiency Top-Load",
                         desc: "Looking for the best performance? This traditional style washer has come a long way, now offering the Best Cleaning in the Industry driven by the PowerWash<sup>®</sup> System! Available in medium to mega capacity up to 7.1 cu. Ft. I.E.C., the High-Efficiency Top Load laundry pairs allow you to get more laundry done at once. You can depend on this ENERGY STAR<sup>®</sup> Qualified washer and dryer to save in lifetime water and energy costs – all while providing a powerfully deep clean for every type of load.",
                         link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965946/",
@@ -209,9 +209,9 @@ export class AppDataService {
 					{
 						image: "./public/images/products/front_load.png",
 						thumb: "./public/images/products/front_load-small.png",
-                        title: "High Efficiency Front-Load",
+                        title: "High Efficiency<br/>Front-Load",
                         alt: "High Efficiency Front-Load",
-                        desc: "This contemporary style provides space saving flexibility, while also boasting the Best Cleaning in the Industry driven by the PowerWash<sup>®</sup> System*. With Advanced Vibration Control<sup>™</sup> Plus and optional stack kits, this configuration allows for quiet placement in smaller spaces.  ENERGY STAR<sup>®</sup> Qualified, High-Efficiency Front-Load Washers mean you’re saving on water and energy costs and still getting a clean you can count on.",
+                        desc: "This contemporary style provides space saving flexibility, while also boasting the Best Cleaning in the Industry driven by the PowerWash<sup>®</sup> System. With Advanced Vibration Control<sup>™</sup> Plus and optional stack kits, this configuration allows for quiet placement in smaller spaces.  ENERGY STAR<sup>®</sup> Qualified, High-Efficiency Front-Load Washers mean you’re saving on water and energy costs and still getting a clean you can count on.",
                         link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965947/",
                         id: "front-load",
                         ctaText: "Learn More",

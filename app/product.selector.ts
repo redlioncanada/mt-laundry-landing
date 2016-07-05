@@ -9,7 +9,7 @@ import {ProductModel} from './models/products.model'
     template: `
         <div class="row" class="{{!enabled ? 'hide' : ''}}">
             <div>
-                <h2 class="rl-mt-refer-landing-subtitle">{{title}}</h2>
+                <h2 class="rl-mt-refer-landing-subtitle" [innerHTML]="title"></h2>
             </div>
             <product-slides [products]="slidesProducts" [selectedProduct]="selectedProduct" (isAnimating)="isAnimating($event)"></product-slides>
             <product-selector-nav [products]="selectorProducts" [selectedProduct]="selectedProduct" (productSelected)="productSelected($event)"></product-selector-nav>

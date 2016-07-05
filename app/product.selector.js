@@ -64,7 +64,7 @@ System.register(['angular2/core', './product.selector.slides', './product.select
                 ProductSelector = __decorate([
                     core_1.Component({
                         selector: 'product-selector',
-                        template: "\n        <div class=\"row\" class=\"{{!enabled ? 'hide' : ''}}\">\n            <div>\n                <h2 class=\"rl-mt-refer-landing-subtitle\">{{title}}</h2>\n            </div>\n            <product-slides [products]=\"slidesProducts\" [selectedProduct]=\"selectedProduct\" (isAnimating)=\"isAnimating($event)\"></product-slides>\n            <product-selector-nav [products]=\"selectorProducts\" [selectedProduct]=\"selectedProduct\" (productSelected)=\"productSelected($event)\"></product-selector-nav>\n        </div>\n    ",
+                        template: "\n        <div class=\"row\" class=\"{{!enabled ? 'hide' : ''}}\">\n            <div>\n                <h2 class=\"rl-mt-refer-landing-subtitle\" [innerHTML]=\"title\"></h2>\n            </div>\n            <product-slides [products]=\"slidesProducts\" [selectedProduct]=\"selectedProduct\" (isAnimating)=\"isAnimating($event)\"></product-slides>\n            <product-selector-nav [products]=\"selectorProducts\" [selectedProduct]=\"selectedProduct\" (productSelected)=\"productSelected($event)\"></product-selector-nav>\n        </div>\n    ",
                         directives: [product_selector_slides_1.ProductSlides, product_selector_nav_1.ProductSelectorNav],
                     }), 
                     __metadata('design:paramtypes', [appdata_service_1.AppDataService])
