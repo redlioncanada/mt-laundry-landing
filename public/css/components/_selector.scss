@@ -22,6 +22,7 @@ product-selector {
         }
 
         @media screen and (max-width: $mobileBreakpoint) {
+            line-height: 30px !important;
             margin-bottom: 0px !important;
         }
 
@@ -229,6 +230,7 @@ product-selector-nav {
 
     @media screen and (max-width: $mobileBreakpoint) {
         padding-top: 0;
+        margin-bottom: 10px;
     }
 
     .wp-refer-landing-product,.see-all {

@@ -55,7 +55,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     desc: "What to look for when buying",
                                     ctaText: "Click Here",
                                     ctaBackground: "./public/images/button-background.png",
-                                    link: "/other-assets/en_CA/pdf/MT_Cooking_Buying_Guide.pdf",
+                                    link: "/other-assets/en_CA/pdf/MT-Laundry-Buying_Guide_EN.pdf",
                                     type: "cart",
                                     analytics: {
                                         category: "@category",
@@ -147,12 +147,12 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     id: 'TyH7i8lmvyM',
                                     thumb: './public/images/video-select-1.jpg',
-                                    title: 'Maytag<sup>®</sup> Washers - PowerWash<sup>™</sup> Cycle',
+                                    title: 'Maytag<sup><sup>&reg;</sup></sup> Washers - PowerWash<sup><sup>&trade;</sup></sup> Cycle',
                                     alt: "test",
-                                    ctaTitle: 'Maytag<sup>®</sup> PowerWash<sup>®</sup> System',
+                                    ctaTitle: 'Maytag<sup><sup>&reg;</sup></sup> PowerWash<sup><sup>&reg;</sup></sup> System',
                                     ctaText: 'Watch Video',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "The Maytag® PowerWash<sup>®</sup> System works three ways to give you one great clean. Optimal Dispensers and Power Spray team together to automatically release detergent at the right time, and give clothes a more concentrated treatment for difficult stains. While the PowerWash® Cycle uses extra cleaning action to fight your worst stains in a single wash.",
+                                    desc: "The Maytag<sup>&reg;</sup> PowerWash<sup><sup>&reg;</sup></sup> System works three ways to give you one great clean. Optimal Dispensers and Power Spray team together to automatically release detergent at the right time, and give clothes a more concentrated treatment for difficult stains. While the PowerWash<sup>&reg;</sup> Cycle uses extra cleaning action to fight your worst stains in a single wash.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
@@ -162,9 +162,9 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     id: 'FuBeNRcpM6Q',
                                     thumb: './public/images/video-select-2.jpg',
-                                    title: 'Maytag<sup>®</sup> Laundry - Optimal Dose Dispensers',
+                                    title: 'Maytag<sup><sup>&reg;</sup></sup> Laundry - Optimal Dose Dispensers',
                                     alt: "test",
-                                    ctaTitle: 'Maytag<sup>®</sup> Laundry - Optimal Dose Dispensers',
+                                    ctaTitle: 'Maytag<sup><sup>&reg;</sup></sup> Laundry - Optimal Dose Dispensers',
                                     ctaText: 'Watch Video',
                                     ctaBackground: "./public/images/button-background.png",
                                     desc: "Take the guesswork out of doing your laundry. Maytag's Optimal Dose Dispenser automatically adds just the right amount of detergent at just the right time for an outstanding cleaning performance. And, because it stores enough high efficiency detergent for up to twelve loads of laundry, you won’t have to add detergent with every load*.<br/><br/>*based on an 8lb load.",
@@ -177,9 +177,9 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     id: 'S_nQgte6bP0',
                                     thumb: './public/images/video-select-3.jpg',
-                                    title: 'Maytag<sup>®</sup> Washers & Dryers tackle your Tough Loads | Maytag<sup>®</sup> Man',
+                                    title: 'Maytag<sup><sup>&reg;</sup></sup> Washers & Dryers tackle your Tough Loads | Maytag<sup><sup>&reg;</sup></sup> Man',
                                     alt: "test",
-                                    ctaTitle: 'Maytag<sup>®</sup> All Your Things',
+                                    ctaTitle: 'Maytag<sup><sup>&reg;</sup></sup> All Your Things',
                                     ctaText: 'Watch Video',
                                     ctaBackground: "./public/images/button-background.png",
                                     desc: "Maytag washers and dryers team up to give your laundry a truly dependable clean.",
@@ -209,7 +209,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     thumb: "./public/images/products/top_load-small.png",
                                     title: "High Efficiency<br/>Top-Load",
                                     alt: "High Efficiency Top-Load",
-                                    desc: "Looking for the best performance? This traditional style washer has come a long way, now offering the Best Cleaning in the Industry driven by the PowerWash<sup>®</sup> System! Available in medium to mega capacity up to 7.1 cu. Ft. I.E.C., the High-Efficiency Top Load laundry pairs allow you to get more laundry done at once. In addition, look for our ENERGY STAR<sup>&reg;</sup> Qualified washers and dryers to save in lifetime water and energy costs – all while providing a powerfully deep clean for every type of load.",
+                                    desc: "Looking for the best performance? This traditional style washer has come a long way, now offering the Best Cleaning in the Industry driven by the PowerWash<sup><sup>&reg;</sup></sup> System! Available in medium to mega capacity up to 7.1 cu. Ft. I.E.C., the High-Efficiency Top Load laundry pairs allow you to get more laundry done at once. In addition, look for our ENERGY STAR<sup>&reg;</sup> Qualified washers and dryers to save in lifetime water and energy costs – all while providing a powerfully deep clean for every type of load.",
                                     link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965946/",
                                     id: "top-load",
                                     ctaText: "Learn More",
@@ -217,7 +217,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Choose Your Laundry Configuration",
-                                        label: "Front Control",
+                                        label: "Top Load",
                                         learnMore: 'Learn More'
                                     }
                                 },
@@ -226,7 +226,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     thumb: "./public/images/products/front_load-small.png",
                                     title: "High Efficiency<br/>Front-Load",
                                     alt: "High Efficiency Front-Load",
-                                    desc: "This contemporary style provides space saving flexibility, while also boasting the Best Cleaning in the Industry driven by the PowerWash<sup>®</sup> System. With Advanced Vibration Control<sup>™</sup> Plus and optional stack kits, this configuration allows for quiet placement in smaller spaces.  ENERGY STAR<sup>®</sup> Qualified, High-Efficiency Front-Load Washers and dryers mean you’re saving on water and energy costs and still getting a clean you can count on.",
+                                    desc: "This contemporary style provides space saving flexibility, while also boasting the Best Cleaning in the Industry driven by the PowerWash<sup><sup>&reg;</sup></sup> System. With Advanced Vibration Control<sup><sup>&trade;</sup></sup> Plus and optional stack kits, this configuration allows for quiet placement in smaller spaces. ENERGY STAR<sup><sup>&reg;</sup></sup> Qualified, High-Efficiency Front-Load washers and dryers mean you’re saving on water and energy costs and still getting a clean you can count on.",
                                     link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965947/",
                                     id: "front-load",
                                     ctaText: "Learn More",
@@ -234,7 +234,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Choose Your Laundry Configuration",
-                                        label: "Rear Control",
+                                        label: "Front Load",
                                         learnMore: 'Learn More'
                                     }
                                 }
@@ -244,7 +244,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                     this.contents.fr = {
                         masthead: {
                             enabled: true,
-                            image: "./public/images/refer-landing-masthead-1.jpg",
+                            image: "./public/images/refer-landing-masthead-1-fr.jpg",
                             alt: "test",
                             title: "Laveuses et sécheuses"
                         },
@@ -267,10 +267,10 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/refer-landing-shopping-cart.png",
                                     title: "Guide d'achat",
                                     alt: "test",
-                                    desc: "What to look for when buying",
+                                    desc: "Éléments à considérer lorsque vous magasinez",
                                     ctaText: "Cliquez ici",
                                     ctaBackground: "./public/images/button-background.png",
-                                    link: "/other-assets/fr_CA/pdf/MT_Cooking_Buying_Guide.pdf",
+                                    link: "/other-assets/en_CA/pdf/MT-Laundry-Buying_Guide_FR.pdf",
                                     type: "cart",
                                     analytics: {
                                         category: "@category",
@@ -282,7 +282,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/refer-landing-star.png",
                                     title: "Évaluations et commentaires",
                                     alt: "test",
-                                    desc: "See what others are saying",
+                                    desc: "Voyez ce que les autres clients en disent",
                                     ctaText: "Cliquez ici",
                                     ctaBackground: "./public/images/button-background.png",
                                     link: "http://www.maytag.ca/fr_CA/2_3_90/jump-page_best-products.content.html",
@@ -297,7 +297,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     image: "./public/images/refer-landing-mag-glass.png",
                                     title: "Trouvez votre électroménager Maytag",
                                     alt: "test",
-                                    desc: "Need help finding your appliance?",
+                                    desc: "Vous avez besoin d'aide pour trouver votre duo de lessive?",
                                     ctaText: "Cliquez ici",
                                     ctaBackground: "./public/images/button-background.png",
                                     link: "http://trouvermon.maytag.ca",
@@ -317,7 +317,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     title: "Garantie de contrôle des vibrations",
                                     image: "./public/images/more-features-2-fr.jpg",
-                                    link: "#",
+                                    link: "http://www.maytag.ca/other-assets/fr_CA/pdf/2016_Maytag_VIBRATION_FREE_LIMITED%20GUARANTEE_FR.pdf",
                                     alt: "test",
                                     text: "Chez Maytag nous nous ne contentons pas de parler de fiabilité – nous l'appuyons.",
                                     cta: "",
@@ -330,7 +330,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     title: "Garantie de 10 ans",
                                     image: "./public/images/more-features-1-fr.jpg",
-                                    link: "http://www.maytag.ca/en_CA/2_3_147/jump-page_ten-year-warranty.content.html",
+                                    link: "http://www.maytag.ca/fr_CA/2_3_147/jump-page_ten-year-warranty.content.html",
                                     alt: "test",
                                     text: "Nous sommes tellement convaincus de la fiabilité des duos de lessive Maytag pour se charger de vos brassées pendant des années que nous les avons accompagnés d'une garantie limitée de 10 ans sur les pièces du moteur à entraînement, du panier de lavage en acier inoxydable et du tambour de la sécheuse. Visitez maytag.ca pour les détails de la garantie.",
                                     cta: "",
@@ -367,7 +367,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaTitle: 'Système PowerWash<sup>&reg;</sup> de Maytag<sup>&reg;</sup>',
                                     ctaText: 'Voir',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "Le système PowerWash<sup>&reg;</sup> de Maytag<sup>&reg;</sup> utilise trois fonctions pour vous offrir un excellent nettoyage. Les distributeurs optimaux et le système Power Spray libèrent le détergent et l'assouplissant automatiquement et au bon moment, procurant aux vêtements un traitement concentré pour venir à bout des taches tenaces. Le programme PowerWash<sup>&reg;</sup> utilise une action de nettoyage supplémentaire pour combattre vos taches en un seul lavage.",
+                                    desc: "Le système PowerWash<sup>&reg;</sup> de Maytag<sup>&reg;</sup> utilise trois fonctions pour vous offrir un excellent nettoyage. Les distributeurs optimaux et le système Power Spray libèrent le détergent automatiquement et au bon moment, procurant aux vêtements un traitement concentré pour venir à bout des taches tenaces. Le programme PowerWash<sup>&reg;</sup> utilise une action de nettoyage supplémentaire pour combattre vos taches en un seul lavage.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
@@ -397,7 +397,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaTitle: 'Laissez Maytag se charger de toutes vos affaires',
                                     ctaText: 'Voir',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "Maytag washers and dryers team up to give your laundry a truly dependable clean.",
+                                    desc: "La combinaison des laveuses et sécheuses Maytag offre à vos vêtements un nettoyage impeccable.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
@@ -424,7 +424,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     thumb: "./public/images/products/top_load-small.png",
                                     title: "Haute efficacité à chargement vertical",
                                     alt: "Haute efficacité à chargement vertical",
-                                    desc: "Bénéficiez du meilleur nettoyage de l'industrie optimisé par le système PowerWash<sup>&reg;</sup>*. Divers modèles sont offerts, de moyenne à méga capacité. La turbine à profil bas est suffisamment puissante pour assurer un nettoyage en profondeur et procure un entretien plus délicat qu'un agitateur. Économisez sur vos coûts de consommation d’eau et d’énergie sur le long terme grâce aux laveuses et sécheuses HE homologuées ENERGY STAR<sup>&reg;</sup>.",
+                                    desc: "Vous recherchez une performance optimale? Cette laveuse de style traditionnel a fait l'objet de nombreuses améliorations, offrant aujourd'hui le meilleur nettoyage de l'industrie, optimisé par le système PowerWash<sup>&reg;</sup>! Offerts en capacités moyennes à mégas, jusqu'à 7,1 pi<sup>3</sup> du C.E.I., les duos de lessive à chargement vertical haute efficacité vous permettent d'effectuer davantage de lessive en une seule fois. Recherchez également nos laveuses et sécheuses homologuées ENERGY STAR<sup>&reg;</sup> pour réduire votre consommation d'eau et d'énergie au cours de leur durée de vie - tout en vous assurant un nettoyage optimal pour tout type de brassée.",
                                     link: "http://www.maytag.ca/fr_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965994/",
                                     id: "top-load",
                                     ctaText: "En savoir plus",
@@ -441,7 +441,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     thumb: "./public/images/products/front_load-small.png",
                                     title: "Haute efficacité à chargement frontal",
                                     alt: "Haute efficacité à chargement frontal",
-                                    desc: "Bénéficiez du meilleur nettoyage de l'industrie optimisé par le système PowerWash<sup>&reg;</sup>*. Divers modèles sont offerts, de moyenne à méga capacité. Le contrôle perfectionné des vibrations et les trousses de superposition facultatives permettent une installation près des chambres ou dans des placards. Économisez sur vos coûts de consommation d’eau et d’énergie sur le long terme grâce aux laveuses et sécheuses homologuées ENERGY STAR<sup>&reg;</sup>.",
+                                    desc: "Ce style contemporain permet d'économiser de l'espace tout en procurant le meilleur nettoyage de sa catégorie, optimisé par le système PowerWash<sup>&reg;</sup>*. Grâce à des trousses de superposition facultatives et un contrôle perfectionné des vibrations Advanced Vibration Control<sup>&trade;</sup>, cette configuration permet une installation dans des espaces restreints, avec un fonctionnement silencieux. Homologuées ENERGY STAR<sup>&reg;</sup>, les laveuses et sécheuses à chargement frontal à haute efficacité vous permettent de réaliser des économies d’eau et énergie tout en vous assurant un nettoyage optimal.",
                                     link: "http://www.maytag.ca/fr_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965998/",
                                     id: "front-load",
                                     ctaText: "En savoir plus",

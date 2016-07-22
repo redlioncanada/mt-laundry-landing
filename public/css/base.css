@@ -793,6 +793,7 @@ rl-mt-laundry-landing {
           margin-top: 30px; } }
       @media screen and (max-width: 820px) {
         rl-mt-laundry-landing product-selector h2 {
+          line-height: 30px !important;
           margin-bottom: 0px !important; } }
       @media screen and (max-width: 479px) {
         rl-mt-laundry-landing product-selector h2 {
@@ -961,7 +962,8 @@ rl-mt-laundry-landing {
       position: relative; }
     @media screen and (max-width: 820px) {
       rl-mt-laundry-landing product-selector-nav {
-        padding-top: 0; } }
+        padding-top: 0;
+        margin-bottom: 10px; } }
     rl-mt-laundry-landing product-selector-nav .wp-refer-landing-product, rl-mt-laundry-landing product-selector-nav .see-all {
       float: left;
       width: 37%;
