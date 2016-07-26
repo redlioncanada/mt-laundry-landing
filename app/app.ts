@@ -40,6 +40,7 @@ class AppComponent {
     constructor(private appdata: AppDataService, private analytics: AnalyticsService, private breakpoint: BreakpointService, private env: EnvironmentService) {
     	this.language = appdata.language
 
+        analytics.setUA('UA-39471211-2')
     	analytics.bind('language', function(str) {
     		return window.location.href.indexOf('fr_CA/') > -1 ? 'FR' : 'EN'
     	})
