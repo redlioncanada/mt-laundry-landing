@@ -108,8 +108,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     cta: "",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Additional Features",
-                                        label: "10-Year Warranty"
+                                        action: "Clicked Get More From Your Laundry",
+                                        label: "Vibration Control Guarantee"
                                     }
                                 },
                                 {
@@ -121,8 +121,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     cta: "",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Additional Features",
-                                        label: "Power Burner"
+                                        action: "Clicked Get More From Your Laundry",
+                                        label: "10- Year Warranty"
                                     }
                                 },
                                 {
@@ -134,8 +134,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     cta: "",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Additional Features",
-                                        label: "FIT System"
+                                        action: "Clicked Get More From Your Laundry",
+                                        label: "Additional Accessories"
                                     }
                                 }
                             ]
@@ -156,7 +156,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
-                                        label: "Maytag Man Video"
+                                        label: "Power Wash"
                                     }
                                 },
                                 {
@@ -171,7 +171,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
-                                        label: "Power Pre-Heat Video"
+                                        label: "Optimal Dose Dispenser"
                                     }
                                 },
                                 {
@@ -186,7 +186,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
-                                        label: "Evenair Video"
+                                        label: "Washers & Dryers"
                                     }
                                 }
                             ]
@@ -199,7 +199,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 link: 'http://cuat.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050/',
                                 analytics: {
                                     category: "@category",
-                                    action: "Clicked Choose Your Cooking Configuration",
+                                    action: "Clicked Laudry Configuration",
                                     label: "See all Laundry"
                                 }
                             },
@@ -216,8 +216,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Laundry Configuration",
-                                        label: "Top Load",
+                                        action: "Clicked Laundry Configuration",
+                                        label: "High Efficiency Top-Load",
                                         learnMore: 'Learn More'
                                     }
                                 },
@@ -233,8 +233,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Laundry Configuration",
-                                        label: "Front Load",
+                                        action: "Clicked Laundry Configuration",
+                                        label: "High Efficiency Front-Load",
                                         learnMore: 'Learn More'
                                     }
                                 }
